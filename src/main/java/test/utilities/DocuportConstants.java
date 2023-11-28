@@ -12,4 +12,7 @@ public class DocuportConstants {
     public static final String  DOCUPORT_USERNAME = "username or email";
     public static final String  DOCUPORT_PASSWORD = "Password";
     public static final String  DOCUPORT_LOGIN = "Log in";
+    public static final String USERNAME_ADVISOR = "b1g2_advisor@gmail.com";
+    public static final String PASSWORD_G2 = "Group2";
+
 }
