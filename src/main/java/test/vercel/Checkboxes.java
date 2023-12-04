@@ -25,7 +25,7 @@ public class Checkboxes {
         if(checkbox1.isSelected() && checkbox2.isSelected()){
             System.out.println("Both checkboxes are selected. PASS");
         } else {
-            System.out.println("Both checkboxes are NOT selected. PASS");
+            System.out.println("Both checkboxes are NOT selected. FAIL");
 
         }
 

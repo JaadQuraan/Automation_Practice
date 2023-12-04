@@ -1,16 +1,24 @@
 package test.vercel;
 
+import com.google.common.annotations.VisibleForTesting;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 import test.utilities.WebDriverFactory;
 
 import java.time.Duration;
 
 public class DragAndDropCircle {
+
+    @Test
+    public void test(){
+
+    }
+
     public static void main(String[] args) {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
