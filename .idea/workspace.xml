@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="First Vercel Tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportConstants.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="day4_tasks" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JaadQuraan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ae23db6e-05bf-48b1-bbf5-7b514223d1be" />
+        <option name="url" value="https://github.com/JaadQuraan/Automation_Practice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Automation_Practice-effective-pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YVBnrBKhOGPoeV27V6PNJG6yg0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "two.files.diff.last.used.file": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java" />
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test\java" />
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.T3">
+    <configuration name="T2 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_tasks.T2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2.testRings (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_tasks.T2" />
+      <option name="METHOD_NAME" value="testRings" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_tasks.T3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_tasks.T3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T3.testStatusDropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day5_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day5_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day5_tasks.T3" />
+      <option name="METHOD_NAME" value="testStatusDropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.T3" />
+        <item itemvalue="TestNG.T3.testStatusDropdown" />
+        <item itemvalue="TestNG.T3 (1)" />
+        <item itemvalue="TestNG.T2 (2)" />
+        <item itemvalue="TestNG.T2.testRings (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="" />
+      <created>1700601036700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700601036700</updated>
+      <workItem from="1700601037712" duration="595000" />
+      <workItem from="1700601668983" duration="2160000" />
+      <workItem from="1700688867881" duration="13740000" />
+      <workItem from="1700764898375" duration="3000" />
+      <workItem from="1701010329626" duration="12319000" />
+      <workItem from="1701122287869" duration="3795000" />
+      <workItem from="1701226512015" duration="599000" />
+      <workItem from="1701286214339" duration="9476000" />
+      <workItem from="1701379462872" duration="6055000" />
+      <workItem from="1701455553532" duration="6328000" />
+      <workItem from="1701637707188" duration="577000" />
+      <workItem from="1701638298336" duration="656000" />
+      <workItem from="1701638979883" duration="550000" />
+      <workItem from="1701639539843" duration="275000" />
+      <workItem from="1701639822945" duration="408000" />
+      <workItem from="1701640237214" duration="1310000" />
+      <workItem from="1701642673210" duration="87000" />
+      <workItem from="1701642771139" duration="14373000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1700601788214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700601788214</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day 3tasks">
+      <option name="closed" value="true" />
+      <created>1701041964046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701041964046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day 4tasks xpath">
+      <option name="closed" value="true" />
+      <created>1701129724617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701129724617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Vercel Tasks">
+      <option name="closed" value="true" />
+      <created>1701455601939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701455601939</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Vercel Tasks">
+      <option name="closed" value="true" />
+      <created>1701650333946</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701650333946</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="day 3tasks" />
+    <MESSAGE value="day 4tasks xpath" />
+    <MESSAGE value="First Vercel Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Vercel Tasks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
