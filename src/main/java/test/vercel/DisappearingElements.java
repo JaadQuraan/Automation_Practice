@@ -4,63 +4,58 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import test.utilities.Messages;
 import test.utilities.WebDriverFactory;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DisappearingElements extends Exception{
-    public static void main(String[] args) throws InterruptedException {
-        WebDriver driver = WebDriverFactory.getDriver("chrome");
+    WebDriver driver;
+    String pageURL = "https://loopcamp.vercel.app/disappearing-elements.html";
+
+    @BeforeMethod
+    public void setupMethod() {
+        driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-        driver.get("https://loopcamp.vercel.app/disappearing-elements.html");
+        driver.get(pageURL);
+    }
 
-//        if ((home.isDisplayed())) {
-//            System.out.println(homeText);
-//        } else {
-//            System.out.println("Home is not displayed");        }
-        //Does not work because element will never be located
+    @AfterMethod
+    public void teardownMethod() {
+        driver.close();
+    }
 
-        try {
-            WebElement home = driver.findElement(By.xpath("//a[text()='Home']"));
-            String homeText = home.getText();
-            System.out.println(homeText + " is displayed");
-        }catch (NoSuchElementException e){
-            System.out.println("Home is not displayed");
+
+    @Test
+    public void main() throws InterruptedException {
+        List<WebElement> list = driver.findElements(By.xpath("//li[@class='random-item']//a"));
+        for(WebElement button: list){
+//            System.out.println(button.getText() + " has link " + button.getAttribute("href"));
+            System.out.println("getExpectedLink(button.getText()) = " + getExpectedLink(button.getText()));
+            Assert.assertEquals(button.getAttribute("href"),getExpectedLink(button.getText()),button.getText() + " link" + Messages.EQUALS);
         }
 
 
-        try {
-            WebElement about = driver.findElement(By.xpath("//a[text()='About']"));
-            String aboutText = about.getText();
-            System.out.println(aboutText+ " is displayed");
-        }catch (NoSuchElementException e){
-            System.out.println("About is not displayed");
+    }
+
+    public String getExpectedLink (String text){
+        switch (text){
+            case "Home" :
+                return "https://loopcamp.vercel.app/index.html";
+            case "About" :
+                return "https://loopcamp.vercel.app/about/index.html";
+            case "Contact Us" :
+                return "https://loopcamp.vercel.app/contact-us/index.html";
+            case "Portfolio" :
+                return "https://loopcamp.vercel.app/portfolio/index.html";
+            case "Gallery" :
+                return "https://loopcamp.vercel.app/gallery/index.html";
         }
-
-        try {
-            WebElement contact = driver.findElement(By.xpath("//a[text()='Contact Us']"));
-            String contactText = contact.getText();
-            System.out.println(contactText+ " is displayed");
-        }catch (NoSuchElementException e){
-            System.out.println("Contact Us is not displayed");
-        }
-
-
-
-        try {
-            WebElement portfolio = driver.findElement(By.xpath("//a[text()='Portfolio']"));
-            String portfolioText = portfolio.getText();
-            System.out.println(portfolioText+ " is displayed");
-        }catch (NoSuchElementException e){
-            System.out.println("Portfolio is not displayed");
-        }
-
-
-
-        try {
-            WebElement gallery = driver.findElement(By.xpath("//a[text()='Gallery']"));
-            String galleryText = gallery.getText();
-            System.out.println(galleryText+ " is displayed");
-        }catch (NoSuchElementException e){
-            System.out.println("Gallery is not displayed");
-        }
+        return "";
     }
 }

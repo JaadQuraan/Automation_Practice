@@ -64,7 +64,7 @@ public class T2 {
         Thread.sleep(2000);
         WebElement estimatedDate2 = driver.findElement(By.xpath("//span[@class='wt-menu__trigger__label']/span"));
         actual = estimatedDate2.getText();
-        expected = "Estimated Arrival By Dec 24";
+        expected = "Estimated Arrival By Dec 25";
         System.out.println(actual);
         Assert.assertEquals(actual,expected,"Actual does not match expected");
 
