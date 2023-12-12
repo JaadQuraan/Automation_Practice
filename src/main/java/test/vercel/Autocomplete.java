@@ -5,24 +5,32 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import test.utilities.LogUtil;
+import test.utilities.Messages;
 import test.utilities.WebDriverFactory;
 
 public class Autocomplete {
-    public static void main(String[] args) throws InterruptedException {
-        WebDriver driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
-        driver.get("https://loopcamp.vercel.app/autocomplete.html");
-        WebElement logo = driver.findElement(By.xpath("//img[@src='./img/logo.svg']"));
-        if(logo.isDisplayed()){
-            System.out.println("Logo is displayed - Test PASSED");
-        } else {
-            System.out.println("Logo is NOT displayed - Test FAILED");
 
-        }
-        Thread.sleep(2000);
+    WebDriver driver;
+    String pageURL = "https://loopcamp.vercel.app/autocomplete.html";
+
+    @Test
+    public void testLogo(){
+        WebElement logo = driver.findElement(By.xpath("//img[@src='./img/logo.svg']"));
+
+        Assert.assertTrue(logo.isDisplayed(),"Logo is not displayed");
+    }
+    @Test
+    public  void testAutocomplete() throws InterruptedException {
+
+        //Thread.sleep(2000);
         WebElement search = driver.findElement(By.id("myCountry"));
         search.sendKeys("United States");
-        Thread.sleep(2000);
+        //Thread.sleep(2000);
         new Actions(driver)
                 .keyDown(Keys.ARROW_DOWN)
                 .keyUp(Keys.ARROW_DOWN)
@@ -34,14 +42,19 @@ public class Autocomplete {
 
         WebElement result = driver.findElement(By.id("result"));
         String resText = result.getText();
-        System.out.println(resText);
-        if(resText.contains("You selected:")){
-            System.out.println("Test Passed");
-        } else {
-            System.out.println("Test Failed");
-        }
+
+        Assert.assertTrue(resText.contains("You selected:"),"Log text" + LogUtil.containsMessage(resText,"You selected:"));
 
 
-
+    }
+    @BeforeMethod
+    public void setupMethod(){
+        driver = WebDriverFactory.getDriver("chrome");
+        driver.manage().window().maximize();
+        driver.get(pageURL);
+    }
+    @AfterMethod
+    public void teardownMethod(){
+      //  driver.close();
     }
 }

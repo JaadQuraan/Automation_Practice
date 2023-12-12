@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "All">
+    <test name= "Vercel">
+        <classes>
+            <class name="test.vercel.Autocomplete"/>
+            <class name="test.vercel.Checkboxes"/>
+            <class name="test.vercel.ContextMenu"/>
+        </classes>
+
+    </test>
+
+
+
+<!--<test name= "Dropdown Tasks">-->
+<!--    <classes>-->
+<!--        <class name="test.day5_tasks.T1"/>-->
+<!--        <class name="test.day5_tasks.T2"/>-->
+<!--        <class name="test.day5_tasks.T3"/>-->
+<!--    </classes>-->
+<!--</test>-->
+</suite>
