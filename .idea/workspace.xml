@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="First Vercel Tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day3_tasks/Task0ng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +21,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="VercelTestBase" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4_tasks" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,10 +63,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.ContextMenu.executor": "Run",
+    "TestNG.T2 (1).executor": "Run",
+    "TestNG.T2 (2).executor": "Run",
+    "TestNG.T2.executor": "Run",
+    "TestNG.T2.testRings.executor": "Run",
+    "TestNG.Task1.buttonConfirm.executor": "Run",
+    "TestNG.Task1.buttonFiveSeconds.executor": "Run",
+    "TestNG.Task1.executor": "Run",
+    "TestNG.Task1.promptButton.executor": "Run",
+    "TestNG.Task2.childiFrame (1).executor": "Run",
+    "TestNG.Task2.childiFrame (2).executor": "Run",
+    "TestNG.Task2.childiFrame (3).executor": "Run",
+    "TestNG.Task2.childiFrame.executor": "Run",
+    "TestNG.Task2.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,7 +87,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "preferences.editor",
     "two.files.diff.last.used.file": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,50 +97,22 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\.idea" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenu">
-    <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Autocomplete" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Checkboxes" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Task2.childiFrame">
+    <configuration name="Task2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
+          <option name="PATTERN" value="test.day6_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Checkboxes" />
+      <option name="PACKAGE_NAME" value="test.day6_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day6_tasks.Task2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,17 +120,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Checkboxes.main" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.childiFrame (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
+          <option name="PATTERN" value="test.day6_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Checkboxes" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="PACKAGE_NAME" value="test.day6_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day6_tasks.Task2" />
+      <option name="METHOD_NAME" value="childiFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,51 +138,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.childiFrame (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
+          <option name="PATTERN" value="test.day6_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.ContextMenu" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.day6_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day6_tasks.Task2" />
+      <option name="METHOD_NAME" value="childiFrame" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisappearingElements" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.childiFrame (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
+          <option name="PATTERN" value="test.day6_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.DisappearingElements" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.day6_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day6_tasks.Task2" />
+      <option name="METHOD_NAME" value="childiFrame" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisappearingElements.main" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.childiFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
+          <option name="PATTERN" value="test.day6_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.DisappearingElements" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="PACKAGE_NAME" value="test.day6_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day6_tasks.Task2" />
+      <option name="METHOD_NAME" value="childiFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -218,29 +193,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.Checkboxes" />
-      <item itemvalue="TestNG.Checkboxes.main" />
-      <item itemvalue="TestNG.ContextMenu" />
-      <item itemvalue="TestNG.DisappearingElements" />
-      <item itemvalue="TestNG.DisappearingElements.main" />
+      <item itemvalue="TestNG.Task2" />
+      <item itemvalue="TestNG.Task2.childiFrame" />
+      <item itemvalue="TestNG.Task2.childiFrame (1)" />
+      <item itemvalue="TestNG.Task2.childiFrame (2)" />
+      <item itemvalue="TestNG.Task2.childiFrame (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContextMenu" />
-        <item itemvalue="TestNG.DisappearingElements" />
-        <item itemvalue="TestNG.DisappearingElements.main" />
-        <item itemvalue="TestNG.Checkboxes" />
-        <item itemvalue="TestNG.Checkboxes.main" />
+        <item itemvalue="TestNG.Task2.childiFrame" />
+        <item itemvalue="TestNG.Task2" />
+        <item itemvalue="TestNG.Task2.childiFrame (3)" />
+        <item itemvalue="TestNG.Task2.childiFrame (2)" />
+        <item itemvalue="TestNG.Task2.childiFrame (1)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -267,9 +234,7 @@
       <workItem from="1701639822945" duration="408000" />
       <workItem from="1701640237214" duration="1310000" />
       <workItem from="1701642673210" duration="87000" />
-      <workItem from="1701642771139" duration="21320000" />
-      <workItem from="1701895202632" duration="3654000" />
-      <workItem from="1702232953402" duration="2223000" />
+      <workItem from="1701642771139" duration="14373000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -311,30 +276,11 @@
       <option name="project" value="LOCAL" />
       <updated>1701650333946</updated>
     </task>
-    <task id="LOCAL-00006" summary="First Vercel Tasks">
-      <option name="closed" value="true" />
-      <created>1701745151320</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701745151320</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
@@ -342,17 +288,6 @@
     <MESSAGE value="day 4tasks xpath" />
     <MESSAGE value="First Vercel Tasks" />
     <option name="LAST_COMMIT_MESSAGE" value="First Vercel Tasks" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

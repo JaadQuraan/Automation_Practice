@@ -36,7 +36,7 @@ public class T2 {
     }
     @AfterMethod
     public void teardownMethod(){
-        driver.close();
+      //  driver.close();
     }
 
     @Test
@@ -47,14 +47,14 @@ public class T2 {
         Actions actions = new Actions(driver);
 //        actions.sendKeys(Keys.ENTER).perform();
         actions.sendKeys(searchBox,"rings").sendKeys(Keys.ENTER).perform();
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         WebElement estimatedDate = driver.findElement(By.xpath("//span[@class='wt-menu__trigger__label']/span"));
         actual = estimatedDate.getText();
         expected = "Estimated Arrival Any time";
         System.out.println(actual);
         Assert.assertEquals(actual,expected,"Actual does not match expected");
         estimatedDate.click();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         WebElement customDates = driver.findElement(By.xpath("//select[@id='edd_select_tf']"));
         Select dropdown = new Select(customDates);
         Thread.sleep(2000);
