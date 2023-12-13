@@ -12,7 +12,13 @@ import org.testng.annotations.Test;
 import test.utilities.LogUtil;
 import test.utilities.Messages;
 import test.utilities.WebDriverFactory;
-
+/*
+go to: https://loopcamp.vercel.app/autocomplete.html
+Check task works manually first and explain what you would be looking for automation testing
+1. Type "United States of America" in input box
+2. Click the submit button
+3. Verify "You selected: United States of America"
+ */
 public class Autocomplete {
 
     WebDriver driver;
@@ -30,20 +36,21 @@ public class Autocomplete {
         //Thread.sleep(2000);
         WebElement search = driver.findElement(By.id("myCountry"));
         search.sendKeys("United States");
-        //Thread.sleep(2000);
-        new Actions(driver)
-                .keyDown(Keys.ARROW_DOWN)
+        Thread.sleep(2000);
+       Actions actions = new Actions(driver);
+                actions.keyDown(Keys.ARROW_DOWN)
                 .keyUp(Keys.ARROW_DOWN)
                 .keyDown(Keys.ENTER)
                 .keyUp(Keys.ENTER)
-                .perform();
+                .perform(); //
+        Thread.sleep(2000);
         WebElement submitButton = driver.findElement(By.xpath("//input[@type='button']"));
         submitButton.click();
 
         WebElement result = driver.findElement(By.id("result"));
         String resText = result.getText();
 
-        Assert.assertTrue(resText.contains("You selected:"),"Log text" + LogUtil.containsMessage(resText,"You selected:"));
+        Assert.assertTrue(resText.contains("You selected:"),"You did not select an option");
 
 
     }

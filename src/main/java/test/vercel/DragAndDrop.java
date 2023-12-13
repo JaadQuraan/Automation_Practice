@@ -21,21 +21,12 @@ public class DragAndDrop {
         System.out.println("squareA.isDisplayed() = " + squareA.isDisplayed());
         WebElement squareB = driver.findElement(By.id("column-b"));
         System.out.println("squareB.isDisplayed() = " + squareB.isDisplayed());
-//        WebElement headerA = driver.findElement(By.xpath("//header[text()='A']"));
-//        WebElement headerB = driver.findElement(By.xpath("//header[text()='B']"));
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("column-a")));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("column-b")));
-//
-//        wait.until(ExpectedConditions.elementToBeClickable(squareA));
-//
-//// Perform the drag-and-drop action
-//        Actions actions = new Actions(driver);
-//        actions.clickAndHold(squareA).moveToElement(squareB).release().perform();
 
         Actions actions = new Actions(driver);
      actions.clickAndHold(squareA).moveToElement(squareB).release().perform();
-       // actions.clickAndHold(squareA).dragAndDrop(squareA,squareB).release().perform();
 
     }
 }

@@ -1,15 +1,14 @@
 package test.vercel;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import test.utilities.WebDriverFactory;
+
+import java.time.Duration;
 
 public class ContextMenu {
     WebDriver driver;
@@ -29,7 +28,7 @@ public class ContextMenu {
 
 
     @Test
-    public  void main() throws InterruptedException {
+    public  void contextClick() throws InterruptedException {
         Thread.sleep(2000);
 
         try {
@@ -44,8 +43,8 @@ public class ContextMenu {
             Assert.assertEquals(alertText,"You selected a context menu","Actual does NOT match expected");
 
             alert.accept();
-            Thread.sleep(1000);
-        } catch (Exception e) {
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        } catch (NoSuchElementException e) {
             System.out.println("Failed to find or interact with element");
         }
     }
