@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="day6 tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ExitIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4_tasks" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +68,21 @@
     "TestNG.Autocomplete (2).executor": "Run",
     "TestNG.Autocomplete.executor": "Run",
     "TestNG.Autocomplete.testAutocomplete.executor": "Run",
+    "TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor": "Run",
     "TestNG.ContextMenu.contextClick.executor": "Run",
     "TestNG.ContextMenu.executor": "Run",
+    "TestNG.DisappearingElements.executor": "Run",
+    "TestNG.DynamicLoading.executor": "Run",
+    "TestNG.DynamicLoading.test1 (1).executor": "Run",
+    "TestNG.DynamicLoading.test1 (2).executor": "Run",
+    "TestNG.DynamicLoading.test1.executor": "Run",
+    "TestNG.DynamicLoading.test2.executor": "Run",
+    "TestNG.DynamicLoading.test3.executor": "Run",
+    "TestNG.ExitIntent.test.executor": "Run",
+    "TestNG.Login.test.executor": "Run",
     "TestNG.Task1.executor": "Run",
+    "TestNG.Task2.childiFrame.executor": "Run",
+    "TestNG.Task2.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -99,37 +111,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml">
-    <configuration name="DragAndDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.vercel.DragAndDrop" />
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Autocomplete (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Autocomplete" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Login.test">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -157,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Autocomplete.testAutocomplete" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoading" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -166,8 +148,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Autocomplete" />
-      <option name="METHOD_NAME" value="testAutocomplete" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.DynamicLoading" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicLoading.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.DynamicLoading" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,17 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContextMenu.contextClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicLoading.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -194,8 +183,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.ContextMenu" />
-      <option name="METHOD_NAME" value="contextClick" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.DynamicLoading" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExitIntent.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ExitIntent" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Login" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -204,20 +229,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DragAndDrop" />
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.Autocomplete (2)" />
-      <item itemvalue="TestNG.Autocomplete.testAutocomplete" />
-      <item itemvalue="TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" />
-      <item itemvalue="TestNG.ContextMenu.contextClick" />
+      <item itemvalue="TestNG.DynamicLoading" />
+      <item itemvalue="TestNG.DynamicLoading.test2" />
+      <item itemvalue="TestNG.DynamicLoading.test3" />
+      <item itemvalue="TestNG.ExitIntent.test" />
+      <item itemvalue="TestNG.Login.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" />
-        <item itemvalue="TestNG.ContextMenu.contextClick" />
-        <item itemvalue="TestNG.Autocomplete.testAutocomplete" />
-        <item itemvalue="TestNG.Autocomplete (2)" />
-        <item itemvalue="Application.DragAndDrop" />
+        <item itemvalue="TestNG.Login.test" />
+        <item itemvalue="TestNG.DynamicLoading" />
+        <item itemvalue="TestNG.ExitIntent.test" />
+        <item itemvalue="TestNG.DynamicLoading.test3" />
+        <item itemvalue="TestNG.DynamicLoading.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +281,7 @@
       <workItem from="1701642771139" duration="21320000" />
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
+      <workItem from="1702532572263" duration="6642000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -305,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701745151320</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vercel tasks">
+      <option name="closed" value="true" />
+      <created>1702451718975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702451718975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +361,8 @@
     <MESSAGE value="day 3tasks" />
     <MESSAGE value="day 4tasks xpath" />
     <MESSAGE value="First Vercel Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Vercel Tasks" />
+    <MESSAGE value="vercel tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

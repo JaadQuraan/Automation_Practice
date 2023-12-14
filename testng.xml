@@ -7,6 +7,7 @@
             <class name="test.vercel.Autocomplete"/>
             <class name="test.vercel.Checkboxes"/>
             <class name="test.vercel.ContextMenu"/>
+            <class name="test.vercel.DisappearingElements"/>
         </classes>
 
     </test>
