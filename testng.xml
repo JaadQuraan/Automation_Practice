@@ -8,6 +8,16 @@
             <class name="test.vercel.Checkboxes"/>
             <class name="test.vercel.ContextMenu"/>
             <class name="test.vercel.DisappearingElements"/>
+            <class name="test.vercel.NestedFrames"/>
+            <class name="test.vercel.ExitIntent"/>
+            <class name="test.vercel.Login"/>
+            <class name="test.vercel.InfiniteScroll"/>
+            <class name="test.vercel.HorizontalSlider"/>
+            <class name="test.vercel.MultipleWindows"/>
+            <class name="test.vercel.Inputs"/>
+            <class name="test.vercel.Typos"/>
+            <class name="test.vercel.JSError"/>
+            <class name="test.vercel.KeyPresses"/>
         </classes>
 
     </test>

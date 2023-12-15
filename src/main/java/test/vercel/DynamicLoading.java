@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import static org.testng.Assert.*;
+
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,7 +20,7 @@ public class DynamicLoading {
 
     @BeforeMethod
     public void setupMethod() {
-        driver = WebDriverFactory.getDriver("chrome");
+        driver = WebDriverFactory.getDriver("firefox");
         driver.manage().window().maximize();
     }
 
@@ -58,11 +61,13 @@ public class DynamicLoading {
 
     }
 
-   /* @Test
-    public void test3 (){
+    @Test
+    /*public void test3 () {
         //wait 5 seconds
-        driver.get("https://loopcamp.vercel.app/dynamic_loading/3.html");
+       driver.get("https://loopcamp.vercel.app/dynamic_loading/3.html");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        Wait<WebDriver> wait = new WebDriverWait(driver,Duration.ofSeconds(6));
+        wait.until(d ->driver.findElement(By.xpath("//input[@type = 'username']")) );
         WebElement user = driver.findElement(By.xpath("//input[@type = 'username']"));
         user.click();
         user.clear();
@@ -79,10 +84,13 @@ public class DynamicLoading {
         assertEquals(actual,expected,"You entered wrong username or password for login");
     }
 
-    */
-    @AfterMethod
-    public void teardownMethod() {
-      //  driver.close();
-    }
+      */
 
-}
+
+        @AfterMethod
+        public void teardownMethod () {
+            //  driver.close();
+        }
+
+
+    }
