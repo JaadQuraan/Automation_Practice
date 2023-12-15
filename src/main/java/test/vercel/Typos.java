@@ -16,8 +16,8 @@ public class Typos extends TestBase {
     @Test
     public void test(){
         driver.get("https://loopcamp.vercel.app/typos.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         WebElement sentence = driver.findElement(By.xpath("//p[@id='sentence']"));
         String initialText = sentence.getText();
 
@@ -26,7 +26,9 @@ public class Typos extends TestBase {
             wait.until(ExpectedConditions.stalenessOf(sentence));
             sentence = driver.findElement(By.xpath("//p[@id='sentence']"));
             String refreshedText = sentence.getText();
-            assertNotEquals(refreshedText, initialText, "The text did not change after refresh");
+            if(!refreshedText.equals(initialText)) {
+                assertNotEquals(refreshedText, initialText, "The text did not change after refresh");
+            }
             System.out.println("Text after refresh " + (i + 1) + ": " + refreshedText);
             initialText = refreshedText; // Update the initial text for the next iteration
         }

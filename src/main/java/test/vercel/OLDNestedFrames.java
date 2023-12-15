@@ -1,12 +1,9 @@
 package test.vercel;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import test.utilities.WebDriverFactory;
+
 /*
 default
     top
@@ -14,13 +11,13 @@ default
         middle
         right
  */
-public class NestedFrames extends TestBase{
+public class OLDNestedFrames extends TestBase {
 
 
 
     @Test
     public void left(){
-        driver.get("");
+        driver.get("https://loopcamp.vercel.app/nested-frames.html");
         WebElement topFrame = driver.findElement(By.xpath("//frame[@name='frame-top']"));
         driver.switchTo().frame(topFrame);
         WebElement leftFrame = driver.findElement(By.xpath("//frame[@src= 'frame_left.html']"));

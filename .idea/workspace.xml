@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/EntryAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/InfiniteScroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NewTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" afterDir="false" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="day6 tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +17,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="VercelTestBase" />
         <option value="Class" />
+        <option value="VercelTestBase" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="day4_tasks" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,30 +69,10 @@
     "TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor": "Run",
     "TestNG.ContextMenu.contextClick.executor": "Run",
     "TestNG.ContextMenu.executor": "Run",
-    "TestNG.DisappearingElements.executor": "Run",
-    "TestNG.DynamicLoading.executor": "Run",
-    "TestNG.DynamicLoading.test1 (1).executor": "Run",
-    "TestNG.DynamicLoading.test1 (2).executor": "Run",
-    "TestNG.DynamicLoading.test1.executor": "Run",
-    "TestNG.DynamicLoading.test2.executor": "Run",
-    "TestNG.DynamicLoading.test3.executor": "Run",
-    "TestNG.ExitIntent.test.executor": "Run",
-    "TestNG.HorizontalSlider.executor": "Run",
-    "TestNG.HorizontalSlider.test.executor": "Run",
-    "TestNG.InfiniteScroll.test.executor": "Run",
-    "TestNG.Inputs.test.executor": "Run",
-    "TestNG.JSError.test.executor": "Run",
     "TestNG.KeyPresses.executor": "Run",
     "TestNG.KeyPresses.testKeyPress.executor": "Run",
-    "TestNG.Login.test.executor": "Run",
-    "TestNG.MultipleWindows.test_windows.executor": "Run",
-    "TestNG.NestedFrames.test.executor": "Run",
-    "TestNG.NewTab.executor": "Run",
-    "TestNG.NewTab.testTab.executor": "Run",
+    "TestNG.NestedFrames.left.executor": "Run",
     "TestNG.Task1.executor": "Run",
-    "TestNG.Task2.childiFrame.executor": "Run",
-    "TestNG.Task2.executor": "Run",
-    "TestNG.Typos.test (1).executor": "Run",
     "TestNG.Typos.test.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
@@ -134,7 +102,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeyPresses.testKeyPress">
+  <component name="RunManager" selected="TestNG.NF2.test">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -162,7 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSError.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NF2.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -171,7 +149,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.JSError" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.NF2" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -180,7 +158,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPresses" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedFrames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +167,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.KeyPresses" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.NestedFrames" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -197,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPresses.testKeyPress (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedFrames.left" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +184,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.KeyPresses" />
-      <option name="METHOD_NAME" value="testKeyPress" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.NestedFrames" />
+      <option name="METHOD_NAME" value="left" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -215,7 +193,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPresses.testKeyPress (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Typos.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -224,26 +202,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.KeyPresses" />
-      <option name="METHOD_NAME" value="testKeyPress" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KeyPresses.testKeyPress" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.KeyPresses" />
-      <option name="METHOD_NAME" value="testKeyPress" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Typos" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -253,19 +213,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.JSError.test" />
-      <item itemvalue="TestNG.KeyPresses" />
-      <item itemvalue="TestNG.KeyPresses.testKeyPress" />
-      <item itemvalue="TestNG.KeyPresses.testKeyPress (1)" />
-      <item itemvalue="TestNG.KeyPresses.testKeyPress (2)" />
+      <item itemvalue="TestNG.NF2.test" />
+      <item itemvalue="TestNG.NestedFrames" />
+      <item itemvalue="TestNG.NestedFrames.left" />
+      <item itemvalue="TestNG.Typos.test" />
+      <item itemvalue="TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.KeyPresses.testKeyPress" />
-        <item itemvalue="TestNG.KeyPresses.testKeyPress (2)" />
-        <item itemvalue="TestNG.KeyPresses.testKeyPress (1)" />
-        <item itemvalue="TestNG.KeyPresses" />
-        <item itemvalue="TestNG.JSError.test" />
+        <item itemvalue="TestNG.NF2.test" />
+        <item itemvalue="TestNG.NestedFrames.left" />
+        <item itemvalue="TestNG.NestedFrames" />
+        <item itemvalue="TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml" />
+        <item itemvalue="TestNG.Typos.test" />
       </list>
     </recent_temporary>
   </component>
@@ -304,9 +264,6 @@
       <workItem from="1701642771139" duration="21320000" />
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
-      <workItem from="1702532572263" duration="6642000" />
-      <workItem from="1702565648835" duration="9779000" />
-      <workItem from="1702598832992" duration="11110000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -356,15 +313,7 @@
       <option name="project" value="LOCAL" />
       <updated>1701745151320</updated>
     </task>
-    <task id="LOCAL-00007" summary="vercel tasks">
-      <option name="closed" value="true" />
-      <created>1702451718975</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1702451718975</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,8 +335,7 @@
     <MESSAGE value="day 3tasks" />
     <MESSAGE value="day 4tasks xpath" />
     <MESSAGE value="First Vercel Tasks" />
-    <MESSAGE value="vercel tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="vercel tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Vercel Tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
