@@ -1,6 +1,8 @@
 package test.vercel;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -12,29 +14,34 @@ default
         middle
         right
  */
-public class NestedFrames {
+public class NestedFrames extends TestBase{
 
-    WebDriver driver;
-    String pageURL = "https://loopcamp.vercel.app/nested-frames.html";
 
-    @BeforeMethod
-    public void setupMethod() {
-        driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
-        driver.get(pageURL);
-    }
 
     @Test
-    public void test(){
+    public void left(){
+        driver.get("");
+        WebElement topFrame = driver.findElement(By.xpath("//frame[@name='frame-top']"));
+        driver.switchTo().frame(topFrame);
+        WebElement leftFrame = driver.findElement(By.xpath("//frame[@src= 'frame_left.html']"));
+        WebElement leftText = driver.switchTo().frame(leftFrame).findElement(By.xpath("/html/body"));
+        System.out.println(leftText.getText());
+        WebElement middleFrame = driver.findElement(By.xpath("//frame[@src= 'frame_middle.html']"));
 
-
-
+        driver.switchTo().parentFrame();
+        WebElement middleText = driver.switchTo().frame(middleFrame).findElement(By.xpath("/html/body"));
+        System.out.println(middleText.getText());
+        driver.switchTo().parentFrame();
+        WebElement rightFrame = driver.findElement(By.xpath("//frame[@name= 'frame-right']"));
+        WebElement rightText = driver.switchTo().frame(rightFrame).findElement(By.xpath("/html/body"));
+        System.out.println(rightText.getText());
+        driver.switchTo().defaultContent();
+        WebElement bottomFrame = driver.findElement(By.xpath("//frame[@name='frame-bottom']"));
+        WebElement bottomText = driver.switchTo().frame(bottomFrame).findElement(By.xpath("/html/body"));
+        System.out.println(bottomText.getText());
 
     }
 
-    @AfterMethod
-    public void teardownMethod() {
-       // driver.close();
-    }
+
 
 }

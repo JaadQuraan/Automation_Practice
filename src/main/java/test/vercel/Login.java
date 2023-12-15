@@ -39,7 +39,7 @@ public class Login {
     }
     @AfterMethod
     public void teardownMethod() {
-    //    driver.close();
+        driver.close();
     }
 
 }
