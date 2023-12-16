@@ -17,6 +17,6 @@ public class TestBase {
 
     @AfterMethod
     public void teardownMethod(){
-          //driver.close();
+        // driver.quit();
     }
 }

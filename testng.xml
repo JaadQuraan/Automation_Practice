@@ -8,7 +8,7 @@
             <class name="test.vercel.Checkboxes"/>
             <class name="test.vercel.ContextMenu"/>
             <class name="test.vercel.DisappearingElements"/>
-            <class name="test.vercel.NF2"/>
+            <class name="test.vercel.NestedFrames"/>
             <class name="test.vercel.ExitIntent"/>
             <class name="test.vercel.Login"/>
             <class name="test.vercel.InfiniteScroll"/>
@@ -18,6 +18,15 @@
 \            <class name="test.vercel.JSError"/>
             <class name="test.vercel.KeyPresses"/>
             <class name="test.vercel.Typos"/>
+            <class name="test.vercel.DynamicControls"/>
+            <class name="test.vercel.MultipleButtons"/>
+            <class name="test.vercel.NewTab"/>
+            <class name="test.vercel.NotificationMessage"/>
+            <class name="test.vercel.FormAuthentication"/>
+            <class name="test.vercel.Redirector"/>
+            <class name="test.vercel.FileDownloader"/>
+            <class name="test.vercel.SlowResources"/>
+            <class name="test.vercel.RadioButtons"/>
         </classes>
 
     </test>
