@@ -34,4 +34,5 @@ public class RadioButtons extends TestBase {
         assertTrue(basketball.isSelected(),"Basketball is not selected");
 
     }
+    //check if button or checkbox is enabled using isEnabled() method
 }

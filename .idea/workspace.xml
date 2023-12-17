@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/PizzaOrderWebTableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/PizzaOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,17 +68,30 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ChallengingDOM.executor": "Run",
     "Application.DragAndDrop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Add_Remove.testAdd.executor": "Run",
     "TestNG.Autocomplete (1).executor": "Run",
     "TestNG.Autocomplete (2).executor": "Run",
     "TestNG.Autocomplete.executor": "Run",
     "TestNG.Autocomplete.testAutocomplete.executor": "Run",
+    "TestNG.BasicAuth2.executor": "Run",
+    "TestNG.BasicAuth2.test.executor": "Run",
+    "TestNG.BrokenImage.brokenImgTest.executor": "Run",
+    "TestNG.BrokenImage.executor": "Run",
     "TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor": "Run",
+    "TestNG.ChallengingDOM2.executor": "Run",
+    "TestNG.ChallengingDOM2.testDOM (1).executor": "Run",
+    "TestNG.ChallengingDOM2.testDOM (2).executor": "Run",
+    "TestNG.ChallengingDOM2.testDOM (3).executor": "Run",
+    "TestNG.ChallengingDOM2.testDOM.executor": "Run",
     "TestNG.ContextMenu.contextClick.executor": "Run",
     "TestNG.ContextMenu.executor": "Run",
+    "TestNG.DragAndDrop.test.executor": "Run",
+    "TestNG.DragAndDropCircle.test.executor": "Run",
     "TestNG.Dropdown.programmingLanguagesMultiple.executor": "Run",
     "TestNG.Dropdown.simple.executor": "Run",
     "TestNG.Dropdown.stateTest.executor": "Run",
@@ -88,6 +100,7 @@
     "TestNG.DynamicControls.enable_disable.executor": "Run",
     "TestNG.DynamicControls.executor": "Run",
     "TestNG.DynamicControls.remove_add.executor": "Run",
+    "TestNG.DynamicLoading.test2.executor": "Run",
     "TestNG.ExitIntent.test.executor": "Profiler#1",
     "TestNG.FileDownloader.someFileTxt.executor": "Run",
     "TestNG.FileDownloader.someFileTxt2.executor": "Run",
@@ -113,6 +126,12 @@
     "TestNG.NewTab.testTab.executor": "Run",
     "TestNG.NoABTest.test.executor": "Run",
     "TestNG.NotificationMessage.testMessage.executor": "Run",
+    "TestNG.PizzaOrders.executor": "Run",
+    "TestNG.PizzaOrders.test_amount.executor": "Run",
+    "TestNG.PizzaOrders.test_city.executor": "Run",
+    "TestNG.PizzaOrders.test_dates.executor": "Run",
+    "TestNG.PizzaOrders.test_pizza_type.executor": "Run",
+    "TestNG.PizzaOrders.test_street.executor": "Run",
     "TestNG.RadioButtons.testColors.executor": "Run",
     "TestNG.RadioButtons.testSports.executor": "Run",
     "TestNG.Redirector.executor": "Run",
@@ -153,7 +172,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Dropdown.testSelectWebsites">
+  <component name="RunManager" selected="TestNG.PizzaOrders">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -181,7 +200,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.programmingLanguagesMultiple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDOM2.testDOM (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -190,8 +209,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
-      <option name="METHOD_NAME" value="programmingLanguagesMultiple" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM2" />
+      <option name="METHOD_NAME" value="testDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -199,7 +218,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.simple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDOM2.testDOM (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +227,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
-      <option name="METHOD_NAME" value="simple" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM2" />
+      <option name="METHOD_NAME" value="testDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -217,7 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.stateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDOM2.testDOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -226,8 +245,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
-      <option name="METHOD_NAME" value="stateTest" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM2" />
+      <option name="METHOD_NAME" value="testDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -235,7 +254,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.testDOB" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDOM.testDOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -244,8 +263,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
-      <option name="METHOD_NAME" value="testDOB" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM" />
+      <option name="METHOD_NAME" value="testDOM" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -253,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.testSelectWebsites" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDOM.testDOM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -262,8 +281,115 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
-      <option name="METHOD_NAME" value="testSelectWebsites" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM" />
+      <option name="METHOD_NAME" value="testDOM" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengingDOM.testDOM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.ChallengingDOM" />
+      <option name="METHOD_NAME" value="testDOM" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.PizzaOrders" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrders.test_cardNumbers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.PizzaOrders" />
+      <option name="METHOD_NAME" value="test_cardNumbers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrders.test_cards" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.PizzaOrders" />
+      <option name="METHOD_NAME" value="test_cards" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrders.test_exp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.PizzaOrders" />
+      <option name="METHOD_NAME" value="test_exp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaOrders.test_zipcode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.PizzaOrders" />
+      <option name="METHOD_NAME" value="test_zipcode" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -273,19 +399,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.Dropdown.programmingLanguagesMultiple" />
-      <item itemvalue="TestNG.Dropdown.simple" />
-      <item itemvalue="TestNG.Dropdown.stateTest" />
-      <item itemvalue="TestNG.Dropdown.testDOB" />
-      <item itemvalue="TestNG.Dropdown.testSelectWebsites" />
+      <item itemvalue="TestNG.PizzaOrders" />
+      <item itemvalue="TestNG.PizzaOrders.test_cardNumbers" />
+      <item itemvalue="TestNG.PizzaOrders.test_cards" />
+      <item itemvalue="TestNG.PizzaOrders.test_exp" />
+      <item itemvalue="TestNG.PizzaOrders.test_zipcode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Dropdown.testSelectWebsites" />
-        <item itemvalue="TestNG.Dropdown.programmingLanguagesMultiple" />
-        <item itemvalue="TestNG.Dropdown.stateTest" />
-        <item itemvalue="TestNG.Dropdown.simple" />
-        <item itemvalue="TestNG.Dropdown.testDOB" />
+        <item itemvalue="TestNG.PizzaOrders" />
+        <item itemvalue="TestNG.PizzaOrders.test_exp" />
+        <item itemvalue="TestNG.PizzaOrders.test_cardNumbers" />
+        <item itemvalue="TestNG.PizzaOrders.test_cards" />
+        <item itemvalue="TestNG.PizzaOrders.test_zipcode" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +451,7 @@
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
       <workItem from="1702744037491" duration="3000" />
-      <workItem from="1702763833229" duration="13208000" />
+      <workItem from="1702763833229" duration="26356000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -399,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702763863016</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="vercel tasks">
+      <option name="closed" value="true" />
+      <created>1702786093190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702786093190</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
