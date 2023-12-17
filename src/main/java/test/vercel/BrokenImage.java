@@ -3,6 +3,8 @@ package test.vercel;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import test.base.TestBase;
 import test.utilities.WebDriverFactory;
 
 import javax.imageio.ImageIO;
@@ -12,11 +14,10 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class BrokenImage {
-    public static void main(String[] args) throws MalformedURLException {
-        WebDriver driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
-        //     //img[@src='img/avatar-blank.jpg']
+public class BrokenImage extends TestBase {
+
+    @Test
+    public void brokenImgTest() throws MalformedURLException {
         driver.get("https://loopcamp.vercel.app/broken-images.html");
         WebElement nonBrokenImage = driver.findElement(By.xpath("//img[@src='img/avatar-blank.jpg']"));
 
@@ -39,6 +40,6 @@ public class BrokenImage {
                 (JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-
     }
+
 }

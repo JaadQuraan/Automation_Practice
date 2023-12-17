@@ -35,7 +35,7 @@ public class Autocomplete {
 
         //Thread.sleep(2000);
         WebElement search = driver.findElement(By.id("myCountry"));
-        search.sendKeys("United States");
+        search.sendKeys("United States"); //instead of typing "United States of America". Use actions to use autocomplete
         Thread.sleep(2000);
        Actions actions = new Actions(driver);
                 actions.keyDown(Keys.ARROW_DOWN)
@@ -48,9 +48,9 @@ public class Autocomplete {
         submitButton.click();
 
         WebElement result = driver.findElement(By.id("result"));
-        String resText = result.getText();
-
-        Assert.assertTrue(resText.contains("You selected:"),"You did not select an option");
+        String resultText = result.getText();
+        System.out.println(resultText);
+        Assert.assertTrue(resultText.contains("You selected:"),"You did not select an option");
 
 
     }
@@ -62,6 +62,6 @@ public class Autocomplete {
     }
     @AfterMethod
     public void teardownMethod(){
-      //  driver.close();
+        driver.quit();
     }
 }
