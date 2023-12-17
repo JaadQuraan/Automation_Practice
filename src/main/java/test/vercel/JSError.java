@@ -13,7 +13,7 @@ public class JSError extends TestBase {
         WebElement loadError = driver.findElement(By.xpath("//body[@onload='loadError()']"));
         String expected = "This page has a JavaScript error in the onload event.";
         String actual = loadError.getText();
-        System.out.println("Actual:" + actual);
+        //System.out.println("Actual:" + actual);
         assertTrue(actual.contains(expected));
     }
 }

@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/practice/leetcode1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/practice/leetcode1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4_tasks" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,65 +67,81 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DragAndDrop.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Autocomplete (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Autocomplete (2).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Autocomplete.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Autocomplete.testAutocomplete.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ContextMenu.contextClick.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ContextMenu.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DynamicControls.enable_disable.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DynamicControls.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DynamicControls.remove_add.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ExitIntent.test.executor&quot;: &quot;Profiler#1&quot;,
-    &quot;TestNG.FileDownloader.someFileTxt.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FileDownloader.someFileTxt2.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FormAuthentication.login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Geolocation.location.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.JQueryUI.testPDF.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KeyPresses.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.KeyPresses.testKeyPress.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MultipleButtons.button1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MultipleButtons.dont_click.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MultipleButtons.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MultipleWindows.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.MultipleWindows.test_windows.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NF2.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NestedFrames.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NestedFrames.left.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NewTab.testTab.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.NotificationMessage.testMessage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RadioButtons.testColors.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RadioButtons.testSports.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Redirector.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Redirector.redirect.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SlowResources.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SlowResources.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Typos.test.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DragAndDrop.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Autocomplete (1).executor": "Run",
+    "TestNG.Autocomplete (2).executor": "Run",
+    "TestNG.Autocomplete.executor": "Run",
+    "TestNG.Autocomplete.testAutocomplete.executor": "Run",
+    "TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor": "Run",
+    "TestNG.ContextMenu.contextClick.executor": "Run",
+    "TestNG.ContextMenu.executor": "Run",
+    "TestNG.Dropdown.programmingLanguagesMultiple.executor": "Run",
+    "TestNG.Dropdown.simple.executor": "Run",
+    "TestNG.Dropdown.stateTest.executor": "Run",
+    "TestNG.Dropdown.testDOB.executor": "Run",
+    "TestNG.Dropdown.testSelectWebsites.executor": "Run",
+    "TestNG.DynamicControls.enable_disable.executor": "Run",
+    "TestNG.DynamicControls.executor": "Run",
+    "TestNG.DynamicControls.remove_add.executor": "Run",
+    "TestNG.ExitIntent.test.executor": "Profiler#1",
+    "TestNG.FileDownloader.someFileTxt.executor": "Run",
+    "TestNG.FileDownloader.someFileTxt2.executor": "Run",
+    "TestNG.FormAuthentication.login.executor": "Run",
+    "TestNG.Geolocation.location.executor": "Run",
+    "TestNG.HorizontalSlider.executor": "Run",
+    "TestNG.JQueryUI.testPDF.executor": "Run",
+    "TestNG.JSAlerts.executor": "Run",
+    "TestNG.JSAlerts.testConfirmButton.executor": "Run",
+    "TestNG.JSAlerts.testInformationButton.executor": "Run",
+    "TestNG.JSAlerts.testPrompt.executor": "Run",
+    "TestNG.JSError.test.executor": "Run",
+    "TestNG.KeyPresses.executor": "Run",
+    "TestNG.KeyPresses.testKeyPress.executor": "Run",
+    "TestNG.MultipleButtons.button1.executor": "Run",
+    "TestNG.MultipleButtons.dont_click.executor": "Run",
+    "TestNG.MultipleButtons.executor": "Run",
+    "TestNG.MultipleWindows.executor": "Run",
+    "TestNG.MultipleWindows.test_windows.executor": "Run",
+    "TestNG.NF2.test.executor": "Run",
+    "TestNG.NestedFrames.executor": "Run",
+    "TestNG.NestedFrames.left.executor": "Run",
+    "TestNG.NewTab.testTab.executor": "Run",
+    "TestNG.NoABTest.test.executor": "Run",
+    "TestNG.NotificationMessage.testMessage.executor": "Run",
+    "TestNG.RadioButtons.testColors.executor": "Run",
+    "TestNG.RadioButtons.testSports.executor": "Run",
+    "TestNG.Redirector.executor": "Run",
+    "TestNG.Redirector.redirect.executor": "Run",
+    "TestNG.RegistrationForm.executor": "Run",
+    "TestNG.RegistrationForm.testForm (1).executor": "Run",
+    "TestNG.RegistrationForm.testForm.executor": "Run",
+    "TestNG.SignUp.testSignUp.executor": "Run",
+    "TestNG.SlowResources.executor": "Run",
+    "TestNG.SlowResources.test.executor": "Run",
+    "TestNG.Task1.executor": "Run",
+    "TestNG.Typos.test.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "two.files.diff.last.used.file": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
@@ -126,7 +153,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JQueryUI.testPDF">
+  <component name="RunManager" selected="TestNG.Dropdown.testSelectWebsites">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -154,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExitIntent.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Dropdown.programmingLanguagesMultiple" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +190,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.ExitIntent" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
+      <option name="METHOD_NAME" value="programmingLanguagesMultiple" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,7 +199,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileDownloader.someFileTxt2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Dropdown.simple" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -181,8 +208,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.FileDownloader" />
-      <option name="METHOD_NAME" value="someFileTxt2" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
+      <option name="METHOD_NAME" value="simple" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -190,7 +217,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JQueryUI.testPDF" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Dropdown.stateTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -199,8 +226,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.JQueryUI" />
-      <option name="METHOD_NAME" value="testPDF" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
+      <option name="METHOD_NAME" value="stateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -208,7 +235,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtons.testColors" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Dropdown.testDOB" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -217,8 +244,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.RadioButtons" />
-      <option name="METHOD_NAME" value="testColors" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
+      <option name="METHOD_NAME" value="testDOB" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -226,7 +253,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtons.testSports" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Dropdown.testSelectWebsites" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +262,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.RadioButtons" />
-      <option name="METHOD_NAME" value="testSports" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Dropdown" />
+      <option name="METHOD_NAME" value="testSelectWebsites" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -246,19 +273,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.ExitIntent.test" />
-      <item itemvalue="TestNG.FileDownloader.someFileTxt2" />
-      <item itemvalue="TestNG.JQueryUI.testPDF" />
-      <item itemvalue="TestNG.RadioButtons.testColors" />
-      <item itemvalue="TestNG.RadioButtons.testSports" />
+      <item itemvalue="TestNG.Dropdown.programmingLanguagesMultiple" />
+      <item itemvalue="TestNG.Dropdown.simple" />
+      <item itemvalue="TestNG.Dropdown.stateTest" />
+      <item itemvalue="TestNG.Dropdown.testDOB" />
+      <item itemvalue="TestNG.Dropdown.testSelectWebsites" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JQueryUI.testPDF" />
-        <item itemvalue="TestNG.ExitIntent.test" />
-        <item itemvalue="TestNG.RadioButtons.testSports" />
-        <item itemvalue="TestNG.RadioButtons.testColors" />
-        <item itemvalue="TestNG.FileDownloader.someFileTxt2" />
+        <item itemvalue="TestNG.Dropdown.testSelectWebsites" />
+        <item itemvalue="TestNG.Dropdown.programmingLanguagesMultiple" />
+        <item itemvalue="TestNG.Dropdown.stateTest" />
+        <item itemvalue="TestNG.Dropdown.simple" />
+        <item itemvalue="TestNG.Dropdown.testDOB" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +325,7 @@
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
       <workItem from="1702744037491" duration="3000" />
+      <workItem from="1702763833229" duration="13208000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -363,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702707569179</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="vercel tasks">
+      <option name="closed" value="true" />
+      <created>1702763863016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702763863016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

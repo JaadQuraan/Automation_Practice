@@ -25,8 +25,13 @@
             <class name="test.vercel.FormAuthentication"/>
             <class name="test.vercel.Redirector"/>
             <class name="test.vercel.FileDownloader"/>
-            <class name="test.vercel.SlowResources"/>
             <class name="test.vercel.RadioButtons"/>
+            <class name="test.vercel.JSAlerts"/>
+            <class name="test.vercel.RegistrationForm"/>
+            <class name="test.vercel.SignUp"/>
+            <class name="test.vercel.NoABTest"/>
+            <class name="test.vercel.Dropdown"/>
+            <class name="test.vercel.SlowResources"/>
         </classes>
 
     </test>
