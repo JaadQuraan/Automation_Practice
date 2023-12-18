@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;
+
 /*
 1. go to https://loopcamp.vercel.app/web-tables.html
 2. create a method to test given field for a given name
@@ -51,22 +52,23 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualAmount = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Amount");
-            System.out.println(actualAmount);
+            //System.out.println(actualAmount);
             assertEquals(actualAmount, expectedAmounts.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_dates() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
         List<String> nameList = PizzaOrderWebTableUtil.pizzaNames();
-        List<String> expectedDates = new ArrayList<>(Arrays.asList("04/15/2021","01/08/2021","03/29/2021","01/16/2021","05/12/2021","12/31/2021","12/21/2021","12/04/2021"));
+        List<String> expectedDates = new ArrayList<>(Arrays.asList("04/15/2021", "01/08/2021", "03/29/2021", "01/16/2021", "05/12/2021", "12/31/2021", "12/21/2021", "12/04/2021"));
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualDate = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Date");
-           // System.out.println(actualDate);
             assertEquals(actualDate, expectedDates.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_street() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
@@ -75,7 +77,6 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualStreet = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Street");
-            // System.out.println(actualDate);
             assertEquals(actualStreet, expectedStreets.get(i), "Actual does not match expected");
         }
     }
@@ -88,10 +89,10 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualCity = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "City");
-            // System.out.println(actualDate);
             assertEquals(actualCity, expectedCities.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_state() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
@@ -100,10 +101,10 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualState = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "State");
-            // System.out.println(actualDate);
             assertEquals(actualState, expectedStates.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_zipcode() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
@@ -112,7 +113,6 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualZip = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Zip");
-            // System.out.println(actualDate);
             assertEquals(actualZip, expectedZips.get(i), "Actual does not match expected");
         }
     }
@@ -125,10 +125,10 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualCard = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Card");
-            // System.out.println(actualDate);
             assertEquals(actualCard, expectedCards.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_cardNumbers() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
@@ -137,10 +137,10 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualCardNumber = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Card Number");
-            // System.out.println(actualDate);
             assertEquals(actualCardNumber, expectedCardNumbers.get(i), "Actual does not match expected");
         }
     }
+
     @Test
     public void test_exp() {
         driver.get("https://loopcamp.vercel.app/web-tables.html");
@@ -149,7 +149,6 @@ public class PizzaOrders extends TestBase {
         for (int i = 0; i < nameList.size(); i++) {
             String name = nameList.get(i);
             String actualExp = PizzaOrderWebTableUtil.returnAnyFieldValue(driver, name, "Exp");
-            // System.out.println(actualDate);
             assertEquals(actualExp, expectedExps.get(i), "Actual does not match expected");
         }
     }
