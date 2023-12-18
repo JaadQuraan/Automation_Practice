@@ -16,7 +16,7 @@ public class Task1 {
         WebElement passwordBox = driver.findElement(By.xpath("//input[@id='input-15']"));
 
         userBox.sendKeys(DocuportConstants.USERNAME_ADVISOR);
-        passwordBox.sendKeys(DocuportConstants.PASSWORD_G2);
+        passwordBox.sendKeys(DocuportConstants.PASSWORD);
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginButton.click();
 
