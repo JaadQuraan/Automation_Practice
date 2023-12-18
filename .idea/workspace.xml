@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/T1_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,12 +108,13 @@
     "TestNG.Redirector.redirect.executor": "Run",
     "TestNG.SlowResources.executor": "Run",
     "TestNG.SlowResources.test.executor": "Run",
+    "TestNG.T1_WebTables.test_webTables.executor": "Run",
     "TestNG.Task1.executor": "Run",
     "TestNG.Typos.test.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
+    "last_opened_file_path": "C:/Users/quraa/IdeaProjects/Automation_Practice/src/main/java/test/utilities",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,6 +130,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\test\utilities" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -134,8 +139,37 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.day8_tasks" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.DocuportRegistration.registration">
+  <component name="RunManager" selected="TestNG.T1_WebTables.test_webTables (2)">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.day4_tasks.Task1" />
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day4_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.day4_tasks.Task2" />
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day4_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -163,7 +197,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocuportRegistration.registration (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +206,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
+      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.T1_WebTables" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_WebTables.test_webTables (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day8_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day8_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.T1_WebTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -181,7 +232,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocuportRegistration.registration (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_WebTables.test_webTables (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -190,62 +241,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocuportRegistration.registration (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day8_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocuportRegistration.registration (5)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day8_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocuportRegistration.registration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day8_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
+      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.T1_WebTables" />
+      <option name="METHOD_NAME" value="test_webTables" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -254,20 +251,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Task2" />
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.DocuportRegistration.registration" />
-      <item itemvalue="TestNG.DocuportRegistration.registration (2)" />
-      <item itemvalue="TestNG.DocuportRegistration.registration (3)" />
-      <item itemvalue="TestNG.DocuportRegistration.registration (4)" />
-      <item itemvalue="TestNG.DocuportRegistration.registration (5)" />
+      <item itemvalue="TestNG.T1_WebTables" />
+      <item itemvalue="TestNG.T1_WebTables.test_webTables (1)" />
+      <item itemvalue="TestNG.T1_WebTables.test_webTables (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DocuportRegistration.registration" />
-        <item itemvalue="TestNG.DocuportRegistration.registration (5)" />
-        <item itemvalue="TestNG.DocuportRegistration.registration (4)" />
-        <item itemvalue="TestNG.DocuportRegistration.registration (3)" />
-        <item itemvalue="TestNG.DocuportRegistration.registration (2)" />
+        <item itemvalue="TestNG.T1_WebTables.test_webTables (2)" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="TestNG.T1_WebTables" />
+        <item itemvalue="TestNG.T1_WebTables.test_webTables (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +304,8 @@
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
       <workItem from="1702744037491" duration="3000" />
-      <workItem from="1702872132089" duration="5852000" />
+      <workItem from="1702872132089" duration="11822000" />
+      <workItem from="1702928119490" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -381,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702872803445</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="vercel tasks">
+      <option name="closed" value="true" />
+      <created>1702883534235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702883534235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
