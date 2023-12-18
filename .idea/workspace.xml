@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="vercel tasks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,11 +252,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RadioButtons.testSports" />
-        <item itemvalue="TestNG.RadioButtons.testColors" />
+        <item itemvalue="TestNG.PizzaOrders" />
         <item itemvalue="TestNG.JQueryUI.testPDF" />
         <item itemvalue="TestNG.ExitIntent.test" />
-        <item itemvalue="TestNG.PizzaOrders" />
+        <item itemvalue="TestNG.RadioButtons.testSports" />
+        <item itemvalue="TestNG.RadioButtons.testColors" />
       </list>
     </recent_temporary>
   </component>
@@ -382,8 +384,7 @@
     <MESSAGE value="day 4tasks xpath" />
     <MESSAGE value="First Vercel Tasks" />
     <MESSAGE value="vercel tasks" />
-    <MESSAGE value="day8 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
