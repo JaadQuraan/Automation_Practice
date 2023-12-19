@@ -51,12 +51,12 @@ public class DocuportRegistration extends TestBase {
 
         WebElement submit = driver.findElement(By.xpath("//button[@type='submit']"));
         submit.click();
-       // Thread.sleep(3000);
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
        WebElement firstName2 = wait.until(d-> driver.findElement(By.xpath("(//label[text()='First name *']/following-sibling::input)[2]")));
        firstName2.sendKeys("name");
 
-//       WebElement radioButtonCompany = driver.findElement(By.xpath("(//input[@value='2'])[3]"));
+//       WebElement radioButtonCompany = driver.findElement(By.xpath("(//input[@value='2'])[3]/.."));
 //       radioButtonCompany.click();
 
         WebElement lastName2 = driver.findElement(By.xpath("(//label[text()='Last name *']/following-sibling::input)[2]"));
