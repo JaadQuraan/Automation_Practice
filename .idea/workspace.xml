@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="day8 tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Buttons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/RadioButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/DocuportLogin.java" afterDir="false" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="demoqa start">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_1_06_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_1_06_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Alerts.testConfirmAlert.executor": "Run",
+    "TestNG.Alerts.testInformationalAlert (1).executor": "Run",
+    "TestNG.Alerts.testInformationalAlert.executor": "Run",
+    "TestNG.Alerts.testPrompt (1).executor": "Run",
+    "TestNG.Alerts.testPrompt (2).executor": "Run",
+    "TestNG.Alerts.testPrompt (3).executor": "Run",
+    "TestNG.Alerts.testPrompt (4).executor": "Run",
+    "TestNG.Alerts.testPrompt.executor": "Run",
+    "TestNG.Alerts.testWaitFiveAlert (1).executor": "Run",
+    "TestNG.Alerts.testWaitFiveAlert.executor": "Run",
     "TestNG.Autocomplete (1).executor": "Run",
     "TestNG.Autocomplete (2).executor": "Run",
     "TestNG.Autocomplete.executor": "Run",
@@ -119,6 +133,7 @@
     "TestNG.NestedFrames.left.executor": "Run",
     "TestNG.NewTab.testTab.executor": "Run",
     "TestNG.NotificationMessage.testMessage.executor": "Run",
+    "TestNG.PizzaOrders.executor": "Run",
     "TestNG.RadioButtons.executor": "Run",
     "TestNG.RadioButtons.test.executor": "Run",
     "TestNG.RadioButtons.testColors.executor": "Run",
@@ -155,13 +170,68 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\.idea" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Buttons.testAll">
+  <component name="RunManager" selected="TestNG.FakerPractice.java_faker">
+    <configuration name="Alerts.testPrompt (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
+      <option name="METHOD_NAME" value="testPrompt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alerts.testPrompt (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
+      <option name="METHOD_NAME" value="testPrompt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alerts.testPrompt" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.demoqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.demoqa" />
+      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
+      <option name="METHOD_NAME" value="testPrompt" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -189,34 +259,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Buttons" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DocuportRegistration.registration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
+          <option name="PATTERN" value="test.day8_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Buttons" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Buttons.testAll" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Buttons" />
-      <option name="METHOD_NAME" value="testAll" />
+      <option name="PACKAGE_NAME" value="test.day8_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
+      <option name="METHOD_NAME" value="registration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -224,53 +277,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Buttons.testDoubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FakerPractice.java_faker" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
+          <option name="PATTERN" value="test.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Buttons" />
-      <option name="METHOD_NAME" value="testDoubleClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Buttons.testDynamicClick" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Buttons" />
-      <option name="METHOD_NAME" value="testDynamicClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Buttons.testRightClick" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Buttons" />
-      <option name="METHOD_NAME" value="testRightClick" />
+      <option name="PACKAGE_NAME" value="test.practice" />
+      <option name="MAIN_CLASS_NAME" value="test.practice.FakerPractice" />
+      <option name="METHOD_NAME" value="java_faker" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -280,19 +297,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.Buttons" />
-      <item itemvalue="TestNG.Buttons.testAll" />
-      <item itemvalue="TestNG.Buttons.testDoubleClick" />
-      <item itemvalue="TestNG.Buttons.testDynamicClick" />
-      <item itemvalue="TestNG.Buttons.testRightClick" />
+      <item itemvalue="TestNG.Alerts.testPrompt" />
+      <item itemvalue="TestNG.Alerts.testPrompt (3)" />
+      <item itemvalue="TestNG.Alerts.testPrompt (4)" />
+      <item itemvalue="TestNG.DocuportRegistration.registration" />
+      <item itemvalue="TestNG.FakerPractice.java_faker" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Buttons.testAll" />
-        <item itemvalue="TestNG.Buttons.testDynamicClick" />
-        <item itemvalue="TestNG.Buttons.testRightClick" />
-        <item itemvalue="TestNG.Buttons.testDoubleClick" />
-        <item itemvalue="TestNG.Buttons" />
+        <item itemvalue="TestNG.FakerPractice.java_faker" />
+        <item itemvalue="TestNG.DocuportRegistration.registration" />
+        <item itemvalue="TestNG.Alerts.testPrompt" />
+        <item itemvalue="TestNG.Alerts.testPrompt (4)" />
+        <item itemvalue="TestNG.Alerts.testPrompt (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -332,6 +349,8 @@
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
       <workItem from="1702744037491" duration="3000" />
+      <workItem from="1703094031272" duration="1927000" />
+      <workItem from="1703135734163" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -397,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702707569179</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="demoqa start">
+      <option name="closed" value="true" />
+      <created>1702967040505</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702967040505</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +448,8 @@
     <MESSAGE value="First Vercel Tasks" />
     <MESSAGE value="vercel tasks" />
     <MESSAGE value="day8 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8 tasks" />
+    <MESSAGE value="demoqa start" />
+    <option name="LAST_COMMIT_MESSAGE" value="demoqa start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
