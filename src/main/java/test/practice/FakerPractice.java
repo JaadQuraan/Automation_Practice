@@ -15,5 +15,8 @@ public class FakerPractice {
         System.out.println("faker.chuckNorris() = " + faker.chuckNorris().fact().replace("Chuck Norris","Jaad"));
         System.out.println("faker.finance().creditCard() = " + faker.finance().creditCard());
 
+
+
+
     }
 }

@@ -5,12 +5,13 @@ import org.openqa.selenium.WebElement;
 import static org.testng.Assert.*;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
-public class NoABTest extends TestBase {
+public class NoABTest {
     @Test
     public void test(){
-        driver.get("https://loopcamp.vercel.app/ab-test.html");
-        WebElement text = driver.findElement(By.xpath("//div[@class='example']/p"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/ab-test.html");
+        WebElement text = Driver.getDriver().findElement(By.xpath("//div[@class='example']/p"));
         String expected = "split testing";
         String actual = text.getText();
         assertTrue(actual.contains(expected),"Not on no A/B test page");

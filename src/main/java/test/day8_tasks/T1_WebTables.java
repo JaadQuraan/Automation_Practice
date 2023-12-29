@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.time.Duration;
 
@@ -26,10 +27,10 @@ public class T1_WebTables extends TestBase {
     @Test
     public void test_webTables() throws InterruptedException {
         DocuportUtils.login(driver, DocuportConstants.ADVISOR);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        WebElement users = driver.findElement(By.xpath("//a[@href='/users']"));
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebElement users = Driver.getDriver().findElement(By.xpath("//a[@href='/users']"));
         users.click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         String expectedFullName = "Alex De Souza";
         String actualFullName = DocuportWebTableUtils.returnAnyField(driver,"alex.de.souza@gmail.com","Full name");
         System.out.println("actualFullName = " + actualFullName);

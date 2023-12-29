@@ -5,36 +5,37 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.time.Duration;
 import java.util.Set;
 //TODO:NOT DONE
-public class NewTab extends TestBase {
+public class NewTab {
     @Test
     public void testTab() throws InterruptedException {
-        driver.get("https://loopcamp.vercel.app/open-new-tab.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        String def = driver.getWindowHandle();
-        driver.switchTo().activeElement();
+        Driver.getDriver().get("https://loopcamp.vercel.app/open-new-tab.html");
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        String def = Driver.getDriver().getWindowHandle();
+        Driver.getDriver().switchTo().activeElement();
         Thread.sleep(1000);
-       // WebElement loadingText = driver.findElement(By.xpath("strong[@id='msg']"));
+       // WebElement loadingText = Driver.getDriver().findElement(By.xpath("strong[@id='msg']"));
        // System.out.println("loadingText.getText() = " + loadingText.getText());
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         Thread.sleep(2000);
-        Set <String> windowHandles = driver.getWindowHandles();
+        Set <String> windowHandles = Driver.getDriver().getWindowHandles();
         for (String windowHandle : windowHandles) {
-            driver.switchTo().window(windowHandle);
+            Driver.getDriver().switchTo().window(windowHandle);
             System.out.println("Window Handle: " + windowHandle);
-            driver.switchTo().window(windowHandle);
+            Driver.getDriver().switchTo().window(windowHandle);
         }
-        driver.switchTo().activeElement();
-        WebElement successText = driver.findElement(By.xpath("//strong[text()='Success!']"));
+        Driver.getDriver().switchTo().activeElement();
+        WebElement successText = Driver.getDriver().findElement(By.xpath("//strong[text()='Success!']"));
         String expected = "Success!";
         String actual = successText.getText();
         System.out.println(actual);
-//        driver.switchTo().window(def);
+//        Driver.getDriver().switchTo().window(def);
 //        Thread.sleep(1000);
-//        WebElement checkTabText = driver.findElement(By.xpath("strong[@id='msg']"));
+//        WebElement checkTabText = Driver.getDriver().findElement(By.xpath("strong[@id='msg']"));
 //        System.out.println("checkTabText.getText() = " + checkTabText.getText());
         Assert.assertEquals(expected,actual,"The new tab was not created or switched to");
     }

@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.io.File;
 import java.time.Duration;
@@ -15,8 +16,8 @@ import java.time.Duration;
 public class FileDownloader extends TestBase {
     @Test
     public void someFileTxt() throws InterruptedException {
-        driver.get("https://loopcamp.vercel.app/download.html");
-        WebElement someFile = driver.findElement(By.xpath("//a[@href='download/some-file.txt']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/download.html");
+        WebElement someFile = Driver.getDriver().findElement(By.xpath("//a[@href='download/some-file.txt']"));
         someFile.click();
         Thread.sleep(2000);
         boolean found = false;
@@ -33,12 +34,12 @@ public class FileDownloader extends TestBase {
     }
     @Test
     public void someFileTxt2() {
-        driver.get("https://loopcamp.vercel.app/download.html");
-        WebElement someFile = driver.findElement(By.xpath("//a[@href='download/some-file.txt']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/download.html");
+        WebElement someFile = Driver.getDriver().findElement(By.xpath("//a[@href='download/some-file.txt']"));
         someFile.click();
 
         // Wait for the file to be downloaded
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
 
         // Check if the file exists
         File downloadedFile = new File("C:/Users/quraa/Downloads/some-file.txt");

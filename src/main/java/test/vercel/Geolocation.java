@@ -7,27 +7,28 @@ import static org.testng.Assert.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.time.Duration;
 
-public class Geolocation extends TestBase {
+public class Geolocation  {
     //TODO cannot get latitude and longitude text or values
     @Test
     public void location() {
-        driver.get("https://loopcamp.vercel.app/geolocation.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        WebElement header = driver.findElement(By.xpath("//h3"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/geolocation.html");
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebElement header = Driver.getDriver().findElement(By.xpath("//h3"));
         System.out.println(header.getText());
         String expected = "Geolocation";
         String actual = header.getText();
         assertEquals(actual,expected,"Geolocation header is NOT displayed");
-        WebElement button = driver.findElement(By.xpath("//button[contains(text(),Where)]"));
+        WebElement button = Driver.getDriver().findElement(By.xpath("//button[contains(text(),Where)]"));
         button.click();
-        WebElement demo = driver.findElement(By.xpath("//p[@id='demo']"));
+        WebElement demo = Driver.getDriver().findElement(By.xpath("//p[@id='demo']"));
        // System.out.println("demo.getText() = " + demo.getText());
-        WebElement latValue = driver.findElement(By.xpath("//div[@id='lat-value']"));
+        WebElement latValue = Driver.getDriver().findElement(By.xpath("//div[@id='lat-value']"));
         System.out.println("latitude value = " + latValue.getText());
-        WebElement longValue = driver.findElement(By.xpath("//div[@id='long-value']"));
+        WebElement longValue = Driver.getDriver().findElement(By.xpath("//div[@id='long-value']"));
         System.out.println("longitude value = " + longValue.getText());
 
     }

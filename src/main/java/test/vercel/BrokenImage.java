@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 import test.utilities.WebDriverFactory;
 
 import javax.imageio.ImageIO;
@@ -18,8 +19,8 @@ public class BrokenImage extends TestBase {
 
     @Test
     public void brokenImgTest() throws MalformedURLException {
-        driver.get("https://loopcamp.vercel.app/broken-images.html");
-        WebElement nonBrokenImage = driver.findElement(By.xpath("//img[@src='img/avatar-blank.jpg']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/broken-images.html");
+        WebElement nonBrokenImage = Driver.getDriver().findElement(By.xpath("//img[@src='img/avatar-blank.jpg']"));
 
         String urlImage = nonBrokenImage.getAttribute("src");
         System.out.println(urlImage);

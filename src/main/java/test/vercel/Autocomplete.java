@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import test.utilities.Driver;
 import test.utilities.LogUtil;
 import test.utilities.Messages;
 import test.utilities.WebDriverFactory;
@@ -26,7 +27,7 @@ public class Autocomplete {
 
     @Test
     public void testLogo(){
-        WebElement logo = driver.findElement(By.xpath("//img[@src='./img/logo.svg']"));
+        WebElement logo = Driver.getDriver().findElement(By.xpath("//img[@src='./img/logo.svg']"));
 
         Assert.assertTrue(logo.isDisplayed(),"Logo is not displayed");
     }
@@ -34,7 +35,7 @@ public class Autocomplete {
     public  void testAutocomplete() throws InterruptedException {
 
         //Thread.sleep(2000);
-        WebElement search = driver.findElement(By.id("myCountry"));
+        WebElement search = Driver.getDriver().findElement(By.id("myCountry"));
         search.sendKeys("United States"); //instead of typing "United States of America". Use actions to use autocomplete
         Thread.sleep(2000);
        Actions actions = new Actions(driver);
@@ -44,10 +45,10 @@ public class Autocomplete {
                 .keyUp(Keys.ENTER)
                 .perform(); //
         Thread.sleep(2000);
-        WebElement submitButton = driver.findElement(By.xpath("//input[@type='button']"));
+        WebElement submitButton = Driver.getDriver().findElement(By.xpath("//input[@type='button']"));
         submitButton.click();
 
-        WebElement result = driver.findElement(By.id("result"));
+        WebElement result = Driver.getDriver().findElement(By.id("result"));
         String resultText = result.getText();
         System.out.println(resultText);
         Assert.assertTrue(resultText.contains("You selected:"),"You did not select an option");
@@ -57,11 +58,11 @@ public class Autocomplete {
     @BeforeMethod
     public void setupMethod(){
         driver = WebDriverFactory.getDriver("chrome");
-        driver.manage().window().maximize();
-        driver.get(pageURL);
+        Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().get(pageURL);
     }
     @AfterMethod
     public void teardownMethod(){
-        driver.quit();
+        Driver.getDriver().quit();
     }
 }

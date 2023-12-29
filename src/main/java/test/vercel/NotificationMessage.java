@@ -7,32 +7,33 @@ import static org.testng.Assert.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class NotificationMessage extends TestBase {
+public class NotificationMessage {
     @Test
     public void testMessage(){
-        driver.get("https://loopcamp.vercel.app/notification-message-rendered.html");
-        WebElement header = driver.findElement(By.xpath("//h3"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/notification-message-rendered.html");
+        WebElement header = Driver.getDriver().findElement(By.xpath("//h3"));
         String expected = "Notification Message";
         String actual = header.getText();
         assertEquals(expected,actual, "Notification Message header is not displayed");
         ArrayList<String> list = new ArrayList<>(Arrays.asList("Action successful","Action unsuccessful, please try again"));
-        WebElement notification = driver.findElement(By.xpath("//div[@class='flash notice']"));
+        WebElement notification = Driver.getDriver().findElement(By.xpath("//div[@class='flash notice']"));
         String expectedNotification = "";
         String actualNotification = "";
-        WebElement clickHere = driver.findElement(By.xpath("//a[@href='notification-message-rendered.html']"));
+        WebElement clickHere = Driver.getDriver().findElement(By.xpath("//a[@href='notification-message-rendered.html']"));
 
         for(String each : list){
-            notification = driver.findElement(By.xpath("//div[@class='flash notice']"));
+            notification = Driver.getDriver().findElement(By.xpath("//div[@class='flash notice']"));
             expectedNotification = each;
             actualNotification = notification.getText();
             if(actualNotification.equals(expectedNotification)){
                 Assert.assertEquals(actualNotification,expectedNotification,"Notification message NOT displayed properly");
             } else {
-                clickHere = driver.findElement(By.xpath("//a[@href='notification-message-rendered.html']"));
+                clickHere = Driver.getDriver().findElement(By.xpath("//a[@href='notification-message-rendered.html']"));
                 clickHere.click();
             }
         }

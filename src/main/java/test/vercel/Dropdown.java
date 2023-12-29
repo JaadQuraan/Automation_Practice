@@ -11,17 +11,18 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 import test.utilities.WebDriverFactory;
 
 
 import java.time.Duration;
 import java.util.List;
 
-public class Dropdown extends TestBase {
+public class Dropdown  {
     @Test
     public void simple() {
-        driver.get("https://loopcamp.vercel.app/dropdown.html");
-        WebElement simpleDropdownElement = driver.findElement(By.xpath("//select[@id='dropdown']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/dropdown.html");
+        WebElement simpleDropdownElement = Driver.getDriver().findElement(By.xpath("//select[@id='dropdown']"));
         Select simple = new Select(simpleDropdownElement);
         String actual = simple.getFirstSelectedOption().getText();
         String expected = "Please select";
@@ -33,10 +34,10 @@ public class Dropdown extends TestBase {
     }
     @Test
     public void testDOB(){
-        driver.get("https://loopcamp.vercel.app/dropdown.html");
-        WebElement yearElement = driver.findElement(By.xpath("//select[@id='year']"));
-        WebElement monthElement = driver.findElement(By.xpath("//select[@id='month']"));
-        WebElement dayElement = driver.findElement(By.xpath("//select[@id='day']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/dropdown.html");
+        WebElement yearElement = Driver.getDriver().findElement(By.xpath("//select[@id='year']"));
+        WebElement monthElement = Driver.getDriver().findElement(By.xpath("//select[@id='month']"));
+        WebElement dayElement = Driver.getDriver().findElement(By.xpath("//select[@id='day']"));
         Select year = new Select(yearElement);
         Select month = new Select(monthElement);
         Select day = new Select(dayElement);
@@ -55,8 +56,8 @@ public class Dropdown extends TestBase {
     }
     @Test
     public void stateTest(){
-        driver.get("https://loopcamp.vercel.app/dropdown.html");
-        WebElement stateElement = driver.findElement(By.xpath("//select[@id='state']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/dropdown.html");
+        WebElement stateElement = Driver.getDriver().findElement(By.xpath("//select[@id='state']"));
         Select stateDropdown = new Select(stateElement);
         String actual = stateDropdown.getFirstSelectedOption().getText();
         String expected = "Select a State";
@@ -75,51 +76,51 @@ public class Dropdown extends TestBase {
 
     @Test
     public void programmingLanguagesMultiple(){
-        driver.get("https://loopcamp.vercel.app/dropdown.html");
-        WebElement languagesElement = driver.findElement(By.xpath("//select[@name='Languages']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/dropdown.html");
+        WebElement languagesElement = Driver.getDriver().findElement(By.xpath("//select[@name='Languages']"));
         Select languages =  new Select(languagesElement);
         languages.deselectAll();
         languages.selectByVisibleText("Java");
         languages.selectByIndex(1);
-        assertTrue(languages.getAllSelectedOptions().contains(driver.findElement
+        assertTrue(languages.getAllSelectedOptions().contains(Driver.getDriver().findElement
                 (By.xpath("//option[@value='java']"))),"Java was not selected");
-        assertTrue(languages.getAllSelectedOptions().contains(driver.findElement
+        assertTrue(languages.getAllSelectedOptions().contains(Driver.getDriver().findElement
                 (By.xpath("//option[@value='js']"))),"JavaScript was not selected");
     }
     @Test
     public void testSelectWebsites(){
-        driver.get("https://loopcamp.vercel.app/dropdown.html");
-        WebElement websiteDropdown = driver.findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
-        WebElement google = driver.findElement(By.xpath("//a[@href='https://www.google.com/']"));
-        WebElement amazon = driver.findElement(By.xpath("//a[@href='https://www.amazon.com/']"));
-        WebElement yahoo = driver.findElement(By.xpath("//a[@href='https://www.yahoo.com/']"));
-        WebElement facebook = driver.findElement(By.xpath("//a[@href='https://www.facebook.com/']"));
-        WebElement etsy = driver.findElement(By.xpath("//a[@href='https://www.etsy.com/']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/dropdown.html");
+        WebElement websiteDropdown = Driver.getDriver().findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
+        WebElement google = Driver.getDriver().findElement(By.xpath("//a[@href='https://www.google.com/']"));
+        WebElement amazon = Driver.getDriver().findElement(By.xpath("//a[@href='https://www.amazon.com/']"));
+        WebElement yahoo = Driver.getDriver().findElement(By.xpath("//a[@href='https://www.yahoo.com/']"));
+        WebElement facebook = Driver.getDriver().findElement(By.xpath("//a[@href='https://www.facebook.com/']"));
+        WebElement etsy = Driver.getDriver().findElement(By.xpath("//a[@href='https://www.etsy.com/']"));
         websiteDropdown.click();
         google.click();
-        assertTrue(driver.getTitle().contains("Google"),"Google.com was not loaded");
-        driver.navigate().back();
-        websiteDropdown = driver.findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
+        assertTrue(Driver.getDriver().getTitle().contains("Google"),"Google.com was not loaded");
+        Driver.getDriver().navigate().back();
+        websiteDropdown = Driver.getDriver().findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
         websiteDropdown.click();
         amazon.click();
-        assertTrue(driver.getTitle().contains("Amazon"),"Amazon.com was not loaded");
-        driver.navigate().back();
+        assertTrue(Driver.getDriver().getTitle().contains("Amazon"),"Amazon.com was not loaded");
+        Driver.getDriver().navigate().back();
 
-        websiteDropdown = driver.findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
+        websiteDropdown = Driver.getDriver().findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
         websiteDropdown.click();
         yahoo.click();
-        assertTrue(driver.getTitle().contains("Yahoo"),"Yahoo.com was not loaded");
+        assertTrue(Driver.getDriver().getTitle().contains("Yahoo"),"Yahoo.com was not loaded");
 
-        driver.navigate().back();
-        websiteDropdown = driver.findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
+        Driver.getDriver().navigate().back();
+        websiteDropdown = Driver.getDriver().findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
         websiteDropdown.click();
         facebook.click();
-        assertTrue(driver.getTitle().contains("Facebook"),"Facebook.com was not loaded");
+        assertTrue(Driver.getDriver().getTitle().contains("Facebook"),"Facebook.com was not loaded");
 
-        driver.navigate().back();
-        websiteDropdown = driver.findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
+        Driver.getDriver().navigate().back();
+        websiteDropdown = Driver.getDriver().findElement(By.xpath("//a[@class='btn btn-secondary dropdown-toggle']"));
         websiteDropdown.click();
         etsy.click();
-        assertTrue(driver.getTitle().contains("Etsy"),"Etsy.com was not loaded");
+        assertTrue(Driver.getDriver().getTitle().contains("Etsy"),"Etsy.com was not loaded");
     }
 }

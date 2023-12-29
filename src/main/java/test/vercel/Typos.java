@@ -8,23 +8,24 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.time.Duration;
 
-public class Typos extends TestBase {
+public class Typos {
 
     @Test
     public void test(){
-        driver.get("https://loopcamp.vercel.app/typos.html");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
-        WebElement sentence = driver.findElement(By.xpath("//p[@id='sentence']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/typos.html");
+        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait( Driver.getDriver(),Duration.ofSeconds(5));
+        WebElement sentence = Driver.getDriver().findElement(By.xpath("//p[@id='sentence']"));
         String initialText = sentence.getText();
 
         for (int i = 0; i < 3; i++) {
-            driver.navigate().refresh();
+            Driver.getDriver().navigate().refresh();
             wait.until(ExpectedConditions.stalenessOf(sentence));
-            sentence = driver.findElement(By.xpath("//p[@id='sentence']"));
+            sentence = Driver.getDriver().findElement(By.xpath("//p[@id='sentence']"));
             String refreshedText = sentence.getText();
             if(!refreshedText.equals(initialText)) {
                 assertNotEquals(refreshedText, initialText, "The text did not change after refresh");

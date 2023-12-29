@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import test.base.TestBase;
+import test.utilities.Driver;
 
 import java.util.ArrayList;
 
@@ -14,12 +15,12 @@ public class ChallengingDOM extends TestBase {
     @Test
     public void testDOM() {
 
-        driver.get("https://loopcamp.vercel.app/challenging-dom.html");
-        WebElement button1 = driver.findElement(By.xpath("//a[@class='button']"));
+        Driver.getDriver().get("https://loopcamp.vercel.app/challenging-dom.html");
+        WebElement button1 = Driver.getDriver().findElement(By.xpath("//a[@class='button']"));
         // button1.click();
-        WebElement button2 = driver.findElement(By.xpath("//a[@class='button']/following-sibling::a"));
+        WebElement button2 = Driver.getDriver().findElement(By.xpath("//a[@class='button']/following-sibling::a"));
         // button2.click();
-        WebElement button3 = driver.findElement(By.xpath("//a[@class='button']/following-sibling::a/following-sibling::a"));
+        WebElement button3 = Driver.getDriver().findElement(By.xpath("//a[@class='button']/following-sibling::a/following-sibling::a"));
         // button3.click();
 
         String[] expectedHeader = {"Lorem", "Ipsum", "Dolor", "Sit", "Amet", "Diceret", "Action"};
@@ -36,7 +37,7 @@ public class ChallengingDOM extends TestBase {
                 {"Iuvaret9", "Apeirian9", "Adipisci9", "Definiebas9", "Consequuntur9", "Phaedrum9"}
         };
 
-        List<WebElement> tableHeaders = driver.findElements(By.tagName("th"));
+        List<WebElement> tableHeaders = Driver.getDriver().findElements(By.tagName("th"));
 
         List<String> tableHeaderText = new ArrayList<>();
 
@@ -55,7 +56,7 @@ public class ChallengingDOM extends TestBase {
         assertEquals(expectedHeader, tableHeaderText.toArray(new String[0]), "Headers not obtained");
 
 
-        List<WebElement> allRows = driver.findElements(By.xpath("/html/body/div/div[2]/div/div/div/div/div[2]/table/tbody/tr"));
+        List<WebElement> allRows = Driver.getDriver().findElements(By.xpath("/html/body/div/div[2]/div/div/div/div/div[2]/table/tbody/tr"));
         for (int i = 0; i < expectedData.length; i++) {
             List<WebElement> cellsInRow = allRows.get(i).findElements(By.tagName("td"));
 
@@ -67,7 +68,7 @@ public class ChallengingDOM extends TestBase {
             }
 
 
-//        List <WebElement> row1 = driver.findElements(By.xpath("/html/body/div/div[2]/div/div/div/div/div[2]/table/tbody/tr[1]/td"));
+//        List <WebElement> row1 = Driver.getDriver().findElements(By.xpath("/html/body/div/div[2]/div/div/div/div/div[2]/table/tbody/tr[1]/td"));
 //        for (WebElement each: row1){
 //            System.out.println(each.getText());
 //        }

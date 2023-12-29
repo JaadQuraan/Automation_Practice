@@ -5,17 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="demoqa start">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_2023_8_15_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_1_06_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2023_1_06_AM__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day9_tasks/T1_registration_form_faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/Funny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/RF3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/RegistrationForm2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_15_2023_2_49_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_15_2023_2_49_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_5_54_PM_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/utilities/DocuportUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/T1_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/T1_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Buttons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/RadioButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/practice/DocuportLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/practice/DocuportLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/practice/FakerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/practice/FakerPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ExitIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ExitIntent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/FileDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/FormAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/FormAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleWindows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NewTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NewTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NotificationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NotificationMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/OLDNestedFrames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/PizzaOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/PizzaOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Redirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Redirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/SlowResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SlowResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +117,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DragAndDrop.executor": "Run",
+    "Application.DragAndDropCircle.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Alerts.testConfirmAlert.executor": "Run",
-    "TestNG.Alerts.testInformationalAlert (1).executor": "Run",
-    "TestNG.Alerts.testInformationalAlert.executor": "Run",
-    "TestNG.Alerts.testPrompt (1).executor": "Run",
-    "TestNG.Alerts.testPrompt (2).executor": "Run",
-    "TestNG.Alerts.testPrompt (3).executor": "Run",
-    "TestNG.Alerts.testPrompt (4).executor": "Run",
-    "TestNG.Alerts.testPrompt.executor": "Run",
-    "TestNG.Alerts.testWaitFiveAlert (1).executor": "Run",
-    "TestNG.Alerts.testWaitFiveAlert.executor": "Run",
     "TestNG.Autocomplete (1).executor": "Run",
     "TestNG.Autocomplete (2).executor": "Run",
     "TestNG.Autocomplete.executor": "Run",
@@ -102,6 +142,7 @@
     "TestNG.Checkbox.test.executor": "Run",
     "TestNG.ContextMenu.contextClick.executor": "Run",
     "TestNG.ContextMenu.executor": "Run",
+    "TestNG.DisappearingElements.executor": "Run",
     "TestNG.DocuportLogin.executor": "Run",
     "TestNG.DocuportLogin.testAdvisor.executor": "Run",
     "TestNG.DocuportLogin.testClient.executor": "Run",
@@ -112,17 +153,32 @@
     "TestNG.DocuportRegistration.registration (4).executor": "Run",
     "TestNG.DocuportRegistration.registration (5).executor": "Run",
     "TestNG.DocuportRegistration.registration.executor": "Run",
+    "TestNG.DragAndDrop.executor": "Run",
+    "TestNG.DragAndDrop.test.executor": "Run",
+    "TestNG.DragAndDropCircle.executor": "Run",
+    "TestNG.DragAndDropCircle.test.executor": "Run",
+    "TestNG.Dropdown.testSelectWebsites.executor": "Run",
     "TestNG.DynamicControls.enable_disable.executor": "Run",
     "TestNG.DynamicControls.executor": "Run",
+    "TestNG.DynamicControls.remove_add (1).executor": "Run",
     "TestNG.DynamicControls.remove_add.executor": "Run",
     "TestNG.ExitIntent.test.executor": "Profiler#1",
+    "TestNG.FakerPractice.executor": "Run",
+    "TestNG.FakerPractice.java_faker.executor": "Run",
     "TestNG.FileDownloader.someFileTxt.executor": "Run",
     "TestNG.FileDownloader.someFileTxt2.executor": "Run",
+    "TestNG.FormAuthentication.executor": "Run",
     "TestNG.FormAuthentication.login.executor": "Run",
+    "TestNG.Funny.test.executor": "Run",
     "TestNG.Geolocation.location.executor": "Run",
+    "TestNG.HorizontalSlider.test.executor": "Run",
+    "TestNG.InfiniteScroll.test.executor": "Run",
+    "TestNG.Inputs.executor": "Run",
+    "TestNG.JQueryUI.executor": "Run",
     "TestNG.JQueryUI.testPDF.executor": "Run",
     "TestNG.KeyPresses.executor": "Run",
     "TestNG.KeyPresses.testKeyPress.executor": "Run",
+    "TestNG.Login.executor": "Run",
     "TestNG.MultipleButtons.button1.executor": "Run",
     "TestNG.MultipleButtons.dont_click.executor": "Run",
     "TestNG.MultipleButtons.executor": "Run",
@@ -131,9 +187,12 @@
     "TestNG.NF2.test.executor": "Run",
     "TestNG.NestedFrames.executor": "Run",
     "TestNG.NestedFrames.left.executor": "Run",
+    "TestNG.NewTab.executor": "Run",
     "TestNG.NewTab.testTab.executor": "Run",
     "TestNG.NotificationMessage.testMessage.executor": "Run",
-    "TestNG.PizzaOrders.executor": "Run",
+    "TestNG.OLDNestedFrames.left (1).executor": "Run",
+    "TestNG.OLDNestedFrames.left.executor": "Run",
+    "TestNG.RF3.executor": "Run",
     "TestNG.RadioButtons.executor": "Run",
     "TestNG.RadioButtons.test.executor": "Run",
     "TestNG.RadioButtons.testColors.executor": "Run",
@@ -144,10 +203,26 @@
     "TestNG.RadioButtons.testYes.executor": "Run",
     "TestNG.Redirector.executor": "Run",
     "TestNG.Redirector.redirect.executor": "Run",
+    "TestNG.RegistrationForm2 (1).executor": "Run",
+    "TestNG.RegistrationForm2.executor": "Run",
+    "TestNG.RegistrationForm2.extraTask (1).executor": "Run",
+    "TestNG.RegistrationForm2.extraTask (2).executor": "Run",
+    "TestNG.RegistrationForm2.extraTask (3).executor": "Run",
+    "TestNG.RegistrationForm2.extraTask.executor": "Run",
     "TestNG.SlowResources.executor": "Run",
     "TestNG.SlowResources.test.executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker (1).executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker (2).executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker (3).executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker (4).executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker (5).executor": "Run",
+    "TestNG.T1_registration_form_faker.testFaker.executor": "Run",
+    "TestNG.T1_registration_form_faker.testRegistrationForm.executor": "Run",
     "TestNG.Task1.executor": "Run",
+    "TestNG.Typos.executor": "Run",
     "TestNG.Typos.test.executor": "Run",
+    "TestNG.test.vercel.MultipleButtons,button1 and 5 more.executor": "Run",
+    "TestNG.test.vercel.RadioButtons,testColors and 1 more.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -170,68 +245,13 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\.idea" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test\java" />
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FakerPractice.java_faker">
-    <configuration name="Alerts.testPrompt (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
-      <option name="METHOD_NAME" value="testPrompt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts.testPrompt (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
-      <option name="METHOD_NAME" value="testPrompt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts.testPrompt" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.demoqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa.Alerts" />
-      <option name="METHOD_NAME" value="testPrompt" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Typos">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -259,17 +279,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocuportRegistration.registration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day8_tasks.*" />
+          <option name="PATTERN" value="test.vercel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day8_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day8_tasks.DocuportRegistration" />
-      <option name="METHOD_NAME" value="registration" />
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.RadioButtons" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Redirector.redirect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Redirector" />
+      <option name="METHOD_NAME" value="redirect" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -277,39 +314,122 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FakerPractice.java_faker" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SlowResources" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.practice.*" />
+          <option name="PATTERN" value="test.vercel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.practice" />
-      <option name="MAIN_CLASS_NAME" value="test.practice.FakerPractice" />
-      <option name="METHOD_NAME" value="java_faker" />
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.SlowResources" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day9_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
+      <option name="METHOD_NAME" value="testRegistrationForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day9_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
+      <option name="METHOD_NAME" value="testRegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day9_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
+      <option name="METHOD_NAME" value="testRegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Typos" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.vercel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.Typos" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.vercel.RadioButtons,testColors and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="test.vercel.RadioButtons,testColors" />
+        <pattern testClass="test.vercel.RadioButtons,testSports" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.Alerts.testPrompt" />
-      <item itemvalue="TestNG.Alerts.testPrompt (3)" />
-      <item itemvalue="TestNG.Alerts.testPrompt (4)" />
-      <item itemvalue="TestNG.DocuportRegistration.registration" />
-      <item itemvalue="TestNG.FakerPractice.java_faker" />
+      <item itemvalue="TestNG.RadioButtons" />
+      <item itemvalue="TestNG.Redirector.redirect" />
+      <item itemvalue="TestNG.SlowResources" />
+      <item itemvalue="TestNG.Typos" />
+      <item itemvalue="TestNG.test.vercel.RadioButtons,testColors and 1 more" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FakerPractice.java_faker" />
-        <item itemvalue="TestNG.DocuportRegistration.registration" />
-        <item itemvalue="TestNG.Alerts.testPrompt" />
-        <item itemvalue="TestNG.Alerts.testPrompt (4)" />
-        <item itemvalue="TestNG.Alerts.testPrompt (3)" />
+        <item itemvalue="TestNG.Typos" />
+        <item itemvalue="TestNG.SlowResources" />
+        <item itemvalue="TestNG.Redirector.redirect" />
+        <item itemvalue="TestNG.RadioButtons" />
+        <item itemvalue="TestNG.test.vercel.RadioButtons,testColors and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -349,8 +469,8 @@
       <workItem from="1701895202632" duration="3654000" />
       <workItem from="1702232953402" duration="2223000" />
       <workItem from="1702744037491" duration="3000" />
-      <workItem from="1703094031272" duration="1927000" />
-      <workItem from="1703135734163" duration="7358000" />
+      <workItem from="1703275388334" duration="12640000" />
+      <workItem from="1703442202474" duration="5227000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -416,15 +536,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702707569179</updated>
     </task>
-    <task id="LOCAL-00009" summary="demoqa start">
-      <option name="closed" value="true" />
-      <created>1702967040505</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1702967040505</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,15 +560,14 @@
     <MESSAGE value="First Vercel Tasks" />
     <MESSAGE value="vercel tasks" />
     <MESSAGE value="day8 tasks" />
-    <MESSAGE value="demoqa start" />
-    <option name="LAST_COMMIT_MESSAGE" value="demoqa start" />
+    <option name="LAST_COMMIT_MESSAGE" value="day8 tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
