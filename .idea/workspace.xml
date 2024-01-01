@@ -4,67 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="demoqa start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day9_tasks/T1_registration_form_faker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/Funny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/RF3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/practice/RegistrationForm2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_15_2023_2_49_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_15_2023_2_49_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_17_2023_5_54_PM_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="singleton pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day10_tasks/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day10_tasks/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/outsidepractice/InterviewTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/UploadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/DocuportDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day5_tasks/T3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day6_tasks/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/DocuportRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/day8_tasks/T1_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/day8_tasks/T1_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Buttons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/demoqa/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/demoqa/RadioButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/practice/DocuportLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/practice/DocuportLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/practice/FakerPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/practice/FakerPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BasicAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/BrokenImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ChallengingDOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DragAndDropCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicControls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DynamicLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ExitIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ExitIntent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/FileDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/FormAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/FormAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Geolocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/HorizontalSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSAlerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/JSError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/MultipleWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NestedFrames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NewTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NewTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NoABTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/NotificationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/NotificationMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/OLDNestedFrames.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/PizzaOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/PizzaOrders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RadioButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Redirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Redirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/RegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/SlowResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/SlowResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Typos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day4_tasks" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,132 +60,138 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DragAndDrop.executor": "Run",
-    "Application.DragAndDropCircle.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Autocomplete (1).executor": "Run",
-    "TestNG.Autocomplete (2).executor": "Run",
-    "TestNG.Autocomplete.executor": "Run",
-    "TestNG.Autocomplete.testAutocomplete.executor": "Run",
-    "TestNG.Buttons.executor": "Run",
-    "TestNG.Buttons.testAll.executor": "Run",
-    "TestNG.Buttons.testDoubleClick (1).executor": "Run",
-    "TestNG.Buttons.testDoubleClick.executor": "Run",
-    "TestNG.Buttons.testDynamicClick.executor": "Run",
-    "TestNG.Buttons.testRightClick (1).executor": "Run",
-    "TestNG.Buttons.testRightClick.executor": "Run",
-    "TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor": "Run",
-    "TestNG.Checkbox.executor": "Run",
-    "TestNG.Checkbox.test (1).executor": "Run",
-    "TestNG.Checkbox.test (2).executor": "Run",
-    "TestNG.Checkbox.test (3).executor": "Run",
-    "TestNG.Checkbox.test (4).executor": "Run",
-    "TestNG.Checkbox.test (5).executor": "Run",
-    "TestNG.Checkbox.test.executor": "Run",
-    "TestNG.ContextMenu.contextClick.executor": "Run",
-    "TestNG.ContextMenu.executor": "Run",
-    "TestNG.DisappearingElements.executor": "Run",
-    "TestNG.DocuportLogin.executor": "Run",
-    "TestNG.DocuportLogin.testAdvisor.executor": "Run",
-    "TestNG.DocuportLogin.testClient.executor": "Run",
-    "TestNG.DocuportRegistration.executor": "Run",
-    "TestNG.DocuportRegistration.registration (1).executor": "Run",
-    "TestNG.DocuportRegistration.registration (2).executor": "Run",
-    "TestNG.DocuportRegistration.registration (3).executor": "Run",
-    "TestNG.DocuportRegistration.registration (4).executor": "Run",
-    "TestNG.DocuportRegistration.registration (5).executor": "Run",
-    "TestNG.DocuportRegistration.registration.executor": "Run",
-    "TestNG.DragAndDrop.executor": "Run",
-    "TestNG.DragAndDrop.test.executor": "Run",
-    "TestNG.DragAndDropCircle.executor": "Run",
-    "TestNG.DragAndDropCircle.test.executor": "Run",
-    "TestNG.Dropdown.testSelectWebsites.executor": "Run",
-    "TestNG.DynamicControls.enable_disable.executor": "Run",
-    "TestNG.DynamicControls.executor": "Run",
-    "TestNG.DynamicControls.remove_add (1).executor": "Run",
-    "TestNG.DynamicControls.remove_add.executor": "Run",
-    "TestNG.ExitIntent.test.executor": "Profiler#1",
-    "TestNG.FakerPractice.executor": "Run",
-    "TestNG.FakerPractice.java_faker.executor": "Run",
-    "TestNG.FileDownloader.someFileTxt.executor": "Run",
-    "TestNG.FileDownloader.someFileTxt2.executor": "Run",
-    "TestNG.FormAuthentication.executor": "Run",
-    "TestNG.FormAuthentication.login.executor": "Run",
-    "TestNG.Funny.test.executor": "Run",
-    "TestNG.Geolocation.location.executor": "Run",
-    "TestNG.HorizontalSlider.test.executor": "Run",
-    "TestNG.InfiniteScroll.test.executor": "Run",
-    "TestNG.Inputs.executor": "Run",
-    "TestNG.JQueryUI.executor": "Run",
-    "TestNG.JQueryUI.testPDF.executor": "Run",
-    "TestNG.KeyPresses.executor": "Run",
-    "TestNG.KeyPresses.testKeyPress.executor": "Run",
-    "TestNG.Login.executor": "Run",
-    "TestNG.MultipleButtons.button1.executor": "Run",
-    "TestNG.MultipleButtons.dont_click.executor": "Run",
-    "TestNG.MultipleButtons.executor": "Run",
-    "TestNG.MultipleWindows.executor": "Run",
-    "TestNG.MultipleWindows.test_windows.executor": "Run",
-    "TestNG.NF2.test.executor": "Run",
-    "TestNG.NestedFrames.executor": "Run",
-    "TestNG.NestedFrames.left.executor": "Run",
-    "TestNG.NewTab.executor": "Run",
-    "TestNG.NewTab.testTab.executor": "Run",
-    "TestNG.NotificationMessage.testMessage.executor": "Run",
-    "TestNG.OLDNestedFrames.left (1).executor": "Run",
-    "TestNG.OLDNestedFrames.left.executor": "Run",
-    "TestNG.RF3.executor": "Run",
-    "TestNG.RadioButtons.executor": "Run",
-    "TestNG.RadioButtons.test.executor": "Run",
-    "TestNG.RadioButtons.testColors.executor": "Run",
-    "TestNG.RadioButtons.testImpressive.executor": "Run",
-    "TestNG.RadioButtons.testSports.executor": "Run",
-    "TestNG.RadioButtons.testYes (1).executor": "Run",
-    "TestNG.RadioButtons.testYes (2).executor": "Run",
-    "TestNG.RadioButtons.testYes.executor": "Run",
-    "TestNG.Redirector.executor": "Run",
-    "TestNG.Redirector.redirect.executor": "Run",
-    "TestNG.RegistrationForm2 (1).executor": "Run",
-    "TestNG.RegistrationForm2.executor": "Run",
-    "TestNG.RegistrationForm2.extraTask (1).executor": "Run",
-    "TestNG.RegistrationForm2.extraTask (2).executor": "Run",
-    "TestNG.RegistrationForm2.extraTask (3).executor": "Run",
-    "TestNG.RegistrationForm2.extraTask.executor": "Run",
-    "TestNG.SlowResources.executor": "Run",
-    "TestNG.SlowResources.test.executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker (1).executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker (2).executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker (3).executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker (4).executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker (5).executor": "Run",
-    "TestNG.T1_registration_form_faker.testFaker.executor": "Run",
-    "TestNG.T1_registration_form_faker.testRegistrationForm.executor": "Run",
-    "TestNG.Task1.executor": "Run",
-    "TestNG.Typos.executor": "Run",
-    "TestNG.Typos.test.executor": "Run",
-    "TestNG.test.vercel.MultipleButtons,button1 and 5 more.executor": "Run",
-    "TestNG.test.vercel.RadioButtons,testColors and 1 more.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "two.files.diff.last.used.file": "C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DragAndDropCircle.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Autocomplete (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Autocomplete (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Autocomplete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Autocomplete.testAutocomplete.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testAll.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testDoubleClick (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testDoubleClick.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testDynamicClick.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testRightClick (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Buttons.testRightClick.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/quraa/IdeaProjects/Automation_Practice/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkbox.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContextMenu.contextClick.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ContextMenu.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DisappearingElements.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportLogin.testAdvisor.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportLogin.testClient.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DocuportRegistration.registration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragAndDrop.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragAndDropCircle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragAndDropCircle.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdown.testSelectWebsites.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicControls.enable_disable.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicControls.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicControls.remove_add (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DynamicControls.remove_add.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ExitIntent.test.executor&quot;: &quot;Profiler#1&quot;,
+    &quot;TestNG.FakerPractice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FakerPractice.java_faker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileDownloader.someFileTxt.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FileDownloader.someFileTxt2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormAuthentication.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FormAuthentication.login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Funny.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Geolocation.location.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HorizontalSlider.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InfiniteScroll.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Inputs.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JQueryUI.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.JQueryUI.testPDF.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyPresses.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.KeyPresses.testKeyPress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultipleButtons.button1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultipleButtons.dont_click.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultipleButtons.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultipleWindows.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultipleWindows.test_windows.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NF2.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NestedFrames.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NestedFrames.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NewTab.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NewTab.testTab.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NotificationMessage.testMessage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OLDNestedFrames.left (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OLDNestedFrames.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RF3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testColors.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testImpressive.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testSports.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testYes (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testYes (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RadioButtons.testYes.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Redirector.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Redirector.redirect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2.extraTask (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2.extraTask (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2.extraTask (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationForm2.extraTask.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SlowResources.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SlowResources.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testFaker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_registration_form_faker.testRegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.dragOutsideTarget (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.dragOutsideTarget.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Typos.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Typos.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UploadFile.testUpload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1.dragToTop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1.dragTop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.test.vercel.MultipleButtons,button1 and 5 more.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.test.vercel.RadioButtons,testColors and 1 more.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/quraa/IdeaProjects/B2Automation_Selenium/pom.xml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\main\java\com\loop\test" />
@@ -251,7 +203,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Typos">
+  <component name="RunManager" selected="TestNG.UploadFile.testUpload">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -279,58 +231,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.RadioButtons" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Redirector.redirect" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Redirector" />
-      <option name="METHOD_NAME" value="redirect" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlowResources" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.SlowResources" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
@@ -367,17 +267,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.dragOutsideTarget (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="PATTERN" value="test.day10_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day9_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
-      <option name="METHOD_NAME" value="testRegistrationForm" />
+      <option name="PACKAGE_NAME" value="test.day10_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.Task2" />
+      <option name="METHOD_NAME" value="dragOutsideTarget" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -385,7 +285,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Typos" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task2.dragOutsideTarget" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day10_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day10_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.Task2" />
+      <option name="METHOD_NAME" value="dragOutsideTarget" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFile.testUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
@@ -394,7 +312,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.Typos" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.UploadFile" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day10_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day10_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.task1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -402,34 +338,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.vercel.RadioButtons,testColors and 1 more" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="task1.dragToTop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
-      <option name="TEST_OBJECT" value="PATTERN" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day10_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day10_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.task1" />
+      <option name="METHOD_NAME" value="dragToTop" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
-      <patterns>
-        <pattern testClass="test.vercel.RadioButtons,testColors" />
-        <pattern testClass="test.vercel.RadioButtons,testSports" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="TestNG.Autocomplete" />
-      <item itemvalue="TestNG.RadioButtons" />
-      <item itemvalue="TestNG.Redirector.redirect" />
-      <item itemvalue="TestNG.SlowResources" />
-      <item itemvalue="TestNG.Typos" />
-      <item itemvalue="TestNG.test.vercel.RadioButtons,testColors and 1 more" />
+      <item itemvalue="TestNG.T1_registration_form_faker.testRegistrationForm" />
+      <item itemvalue="TestNG.Task2.dragOutsideTarget" />
+      <item itemvalue="TestNG.Task2.dragOutsideTarget (1)" />
+      <item itemvalue="TestNG.UploadFile.testUpload" />
+      <item itemvalue="TestNG.task1" />
+      <item itemvalue="TestNG.task1.dragToTop" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Typos" />
-        <item itemvalue="TestNG.SlowResources" />
-        <item itemvalue="TestNG.Redirector.redirect" />
-        <item itemvalue="TestNG.RadioButtons" />
-        <item itemvalue="TestNG.test.vercel.RadioButtons,testColors and 1 more" />
+        <item itemvalue="TestNG.UploadFile.testUpload" />
+        <item itemvalue="TestNG.Task2.dragOutsideTarget" />
+        <item itemvalue="TestNG.task1.dragToTop" />
+        <item itemvalue="TestNG.Task2.dragOutsideTarget (1)" />
+        <item itemvalue="TestNG.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -471,6 +413,9 @@
       <workItem from="1702744037491" duration="3000" />
       <workItem from="1703275388334" duration="12640000" />
       <workItem from="1703442202474" duration="5227000" />
+      <workItem from="1703829674738" duration="2898000" />
+      <workItem from="1703984725661" duration="605000" />
+      <workItem from="1704052147645" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -536,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702707569179</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="singleton pattern">
+      <option name="closed" value="true" />
+      <created>1703829720483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703829720483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +513,8 @@
     <MESSAGE value="First Vercel Tasks" />
     <MESSAGE value="vercel tasks" />
     <MESSAGE value="day8 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8 tasks" />
+    <MESSAGE value="singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
