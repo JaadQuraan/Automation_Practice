@@ -1,9 +1,10 @@
 package test.pages;
 
-import com.loop.test.utilities.Driver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import test.utilities.Driver;
 
 public class LoopPracticeDynamicLoading1 {
 
