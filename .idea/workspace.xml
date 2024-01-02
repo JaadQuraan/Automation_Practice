@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="singleton pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day10_tasks/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day10_tasks/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/outsidepractice/InterviewTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/vercel/UploadFile.java" afterDir="false" />
+    <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="day10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day11_tasks/T1_SecureSmartbearLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day11_tasks/T2_drag_drop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/pages/LoopPracticeDragDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pages/LoopPracticeDragDropPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/pages/SecureSmartBearLoginPage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +157,8 @@
     &quot;TestNG.RegistrationForm2.extraTask.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.SlowResources.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.SlowResources.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_SecureSmartbearLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_SecureSmartbearLogin.getLinks_test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_registration_form_faker.testFaker (1).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_registration_form_faker.testFaker (2).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_registration_form_faker.testFaker (3).executor&quot;: &quot;Run&quot;,
@@ -164,15 +166,13 @@
     &quot;TestNG.T1_registration_form_faker.testFaker (5).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_registration_form_faker.testFaker.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T1_registration_form_faker.testRegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_drag_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_drag_drop.nowDrop_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_drag_drop.tryAgain_test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Task2.dragOutsideTarget (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Task2.dragOutsideTarget.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Typos.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Typos.test.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.UploadFile.testUpload.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.task1.dragToTop.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.task1.dragTop.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.task1.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.test.vercel.MultipleButtons,button1 and 5 more.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.test.vercel.RadioButtons,testColors and 1 more.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -203,7 +203,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UploadFile.testUpload">
+  <component name="RunManager" selected="TestNG.T2_drag_drop">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -231,106 +231,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_SecureSmartbearLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="PATTERN" value="test.day11_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day9_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
-      <option name="METHOD_NAME" value="testRegistrationForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day9_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day9_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
-      <option name="METHOD_NAME" value="testRegistrationForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2.dragOutsideTarget (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day10_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day10_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.Task2" />
-      <option name="METHOD_NAME" value="dragOutsideTarget" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2.dragOutsideTarget" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day10_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day10_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.Task2" />
-      <option name="METHOD_NAME" value="dragOutsideTarget" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UploadFile.testUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.vercel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.vercel" />
-      <option name="MAIN_CLASS_NAME" value="test.vercel.UploadFile" />
-      <option name="METHOD_NAME" value="testUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="task1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day10_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day10_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.task1" />
+      <option name="PACKAGE_NAME" value="test.day11_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T1_SecureSmartbearLogin" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -338,17 +248,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task1.dragToTop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="T1_SecureSmartbearLogin.getLinks_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day10_tasks.*" />
+          <option name="PATTERN" value="test.day11_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day10_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_tasks.task1" />
-      <option name="METHOD_NAME" value="dragToTop" />
+      <option name="PACKAGE_NAME" value="test.day11_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T1_SecureSmartbearLogin" />
+      <option name="METHOD_NAME" value="getLinks_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day9_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
+      <option name="METHOD_NAME" value="testRegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day9_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
+      <option name="METHOD_NAME" value="testRegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_drag_drop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day11_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_drag_drop.nowDrop_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day11_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
+      <option name="METHOD_NAME" value="nowDrop_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_drag_drop.tryAgain_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.day11_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
+      <option name="METHOD_NAME" value="tryAgain_test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -359,19 +358,19 @@
     <list>
       <item itemvalue="TestNG.Autocomplete" />
       <item itemvalue="TestNG.T1_registration_form_faker.testRegistrationForm" />
-      <item itemvalue="TestNG.Task2.dragOutsideTarget" />
-      <item itemvalue="TestNG.Task2.dragOutsideTarget (1)" />
-      <item itemvalue="TestNG.UploadFile.testUpload" />
-      <item itemvalue="TestNG.task1" />
-      <item itemvalue="TestNG.task1.dragToTop" />
+      <item itemvalue="TestNG.T1_SecureSmartbearLogin" />
+      <item itemvalue="TestNG.T1_SecureSmartbearLogin.getLinks_test" />
+      <item itemvalue="TestNG.T2_drag_drop" />
+      <item itemvalue="TestNG.T2_drag_drop.nowDrop_test" />
+      <item itemvalue="TestNG.T2_drag_drop.tryAgain_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UploadFile.testUpload" />
-        <item itemvalue="TestNG.Task2.dragOutsideTarget" />
-        <item itemvalue="TestNG.task1.dragToTop" />
-        <item itemvalue="TestNG.Task2.dragOutsideTarget (1)" />
-        <item itemvalue="TestNG.task1" />
+        <item itemvalue="TestNG.T2_drag_drop" />
+        <item itemvalue="TestNG.T1_SecureSmartbearLogin.getLinks_test" />
+        <item itemvalue="TestNG.T1_SecureSmartbearLogin" />
+        <item itemvalue="TestNG.T2_drag_drop.nowDrop_test" />
+        <item itemvalue="TestNG.T2_drag_drop.tryAgain_test" />
       </list>
     </recent_temporary>
   </component>
@@ -413,9 +412,6 @@
       <workItem from="1702744037491" duration="3000" />
       <workItem from="1703275388334" duration="12640000" />
       <workItem from="1703442202474" duration="5227000" />
-      <workItem from="1703829674738" duration="2898000" />
-      <workItem from="1703984725661" duration="605000" />
-      <workItem from="1704052147645" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -481,15 +477,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702707569179</updated>
     </task>
-    <task id="LOCAL-00009" summary="singleton pattern">
-      <option name="closed" value="true" />
-      <created>1703829720483</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1703829720483</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,8 +501,7 @@
     <MESSAGE value="First Vercel Tasks" />
     <MESSAGE value="vercel tasks" />
     <MESSAGE value="day8 tasks" />
-    <MESSAGE value="singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="day8 tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

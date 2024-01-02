@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import test.utilities.Driver;
 
-public class LoopPracticeDragDropPage {
+public class LoopPracticeDragDropPage2 {
 
     @FindBy(xpath="//*[@id='draggable']")
     public WebElement smallCircle;
@@ -14,7 +14,7 @@ public class LoopPracticeDragDropPage {
     @FindBy(id="droptarget")
     public WebElement bigCircle;
 
-    public LoopPracticeDragDropPage(){
+    public LoopPracticeDragDropPage2(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 }
