@@ -2,6 +2,8 @@ package test.vercel;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,21 +17,24 @@ public class ContextMenu {
 
 
 
+    Actions actions;
+    LoopPracticeContextMenuPage loopPracticeContextMenuPage;
 
+    @BeforeMethod
+    public void setUpMethod(){
+        Driver.getDriver().get("https://loopcamp.vercel.app/context-menu.html");
+        actions = new Actions(Driver.getDriver());
+        loopPracticeContextMenuPage = new LoopPracticeContextMenuPage();
+    }
 
 
 
         @Test
         public void contextClick () throws InterruptedException {
-            Driver.getDriver().get("https://loopcamp.vercel.app/context-menu.html");
 
-            Thread.sleep(2000);
-
+            Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             try {
-                WebElement box = Driver.getDriver().findElement(By.id("hot-spot"));
-                Actions actions = new Actions(Driver.getDriver());
-                actions.contextClick(box).perform();
-                Thread.sleep(1000);
+                actions.contextClick(loopPracticeContextMenuPage.box).perform();
                 // Handle the alert
                 Alert alert = Driver.getDriver().switchTo().alert();
                 String alertText = alert.getText();
@@ -41,5 +46,15 @@ public class ContextMenu {
             } catch (NoSuchElementException e) {
                 System.out.println("Failed to find or interact with element");
             }
+        }
+    }
+
+    class LoopPracticeContextMenuPage{
+
+        @FindBy(id="hot-spot")
+        public WebElement box;
+
+        public LoopPracticeContextMenuPage(){
+            PageFactory.initElements(Driver.getDriver(),this);
         }
     }

@@ -2,6 +2,7 @@ package test.vercel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import test.base.TestBase;
 import test.utilities.Driver;
@@ -19,5 +20,11 @@ public class Inputs  {
         inputBox.sendKeys("2123");
 
 
+    }
+}
+
+class LoopPracticeInputsPage{
+    public LoopPracticeInputsPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
     }
 }

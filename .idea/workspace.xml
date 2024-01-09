@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ffac71f-5b11-4d20-ae8f-efb3f9e81045" name="Changes" comment="day10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day11_tasks/T1_SecureSmartbearLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/day11_tasks/T2_drag_drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/day12_tasks/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/utilities/enums/States.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/pages/LoopPracticeDragDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/pages/LoopPracticeDragDropPage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/pages/SecureSmartBearLoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Add_Remove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Checkboxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/DisappearingElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/EntryAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/EntryAd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/Inputs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/vercel/KeyPresses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +74,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Add_Remove (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Add_Remove (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Add_Remove.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Add_Remove.testAdd (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Add_Remove.testAdd.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Autocomplete (1).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Autocomplete (2).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Autocomplete.executor&quot;: &quot;Run&quot;,
@@ -86,6 +98,7 @@
     &quot;TestNG.Checkbox.test (4).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Checkbox.test (5).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Checkbox.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Checkboxes.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ContextMenu.contextClick.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ContextMenu.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DisappearingElements.executor&quot;: &quot;Run&quot;,
@@ -103,11 +116,17 @@
     &quot;TestNG.DragAndDrop.test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DragAndDropCircle.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DragAndDropCircle.test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdown.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdown.programmingLanguagesMultiple.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdown.stateTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Dropdown.testSelectWebsites (1).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Dropdown.testSelectWebsites.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DynamicControls.enable_disable.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DynamicControls.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DynamicControls.remove_add (1).executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DynamicControls.remove_add.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EntryAd (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EntryAd.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ExitIntent.test.executor&quot;: &quot;Profiler#1&quot;,
     &quot;TestNG.FakerPractice.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.FakerPractice.java_faker.executor&quot;: &quot;Run&quot;,
@@ -170,6 +189,7 @@
     &quot;TestNG.T2_drag_drop.nowDrop_test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.T2_drag_drop.tryAgain_test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.testAlbum.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Typos.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.Typos.test.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.task1.dragToTop.executor&quot;: &quot;Run&quot;,
@@ -203,7 +223,7 @@
       <recent name="C:\Users\quraa\IdeaProjects\Automation_Practice\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T2_drag_drop">
+  <component name="RunManager" selected="TestNG.T1_registration_form_faker.testRegistrationForm">
     <configuration name="Autocomplete" type="TestNG" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <shortenClasspath name="NONE" />
@@ -231,16 +251,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_SecureSmartbearLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryAd (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="PATTERN" value="test.vercel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day11_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T1_SecureSmartbearLogin" />
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.EntryAd" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -248,18 +268,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_SecureSmartbearLogin.getLinks_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryAd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="PATTERN" value="test.vercel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day11_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T1_SecureSmartbearLogin" />
-      <option name="METHOD_NAME" value="getLinks_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="test.vercel" />
+      <option name="MAIN_CLASS_NAME" value="test.vercel.EntryAd" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -284,34 +303,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_registration_form_faker.testRegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day9_tasks.*" />
+          <option name="PATTERN" value="test.day12_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day9_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_tasks.T1_registration_form_faker" />
-      <option name="METHOD_NAME" value="testRegistrationForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_drag_drop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day11_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day11_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
+      <option name="PACKAGE_NAME" value="test.day12_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day12_tasks.Task1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -319,35 +320,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_drag_drop.nowDrop_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1.testAlbum" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day11_tasks.*" />
+          <option name="PATTERN" value="test.day12_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day11_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
-      <option name="METHOD_NAME" value="nowDrop_test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_drag_drop.tryAgain_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day11_tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day11_tasks" />
-      <option name="MAIN_CLASS_NAME" value="test.day11_tasks.T2_drag_drop" />
-      <option name="METHOD_NAME" value="tryAgain_test" />
+      <option name="PACKAGE_NAME" value="test.day12_tasks" />
+      <option name="MAIN_CLASS_NAME" value="test.day12_tasks.Task1" />
+      <option name="METHOD_NAME" value="testAlbum" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -358,19 +341,18 @@
     <list>
       <item itemvalue="TestNG.Autocomplete" />
       <item itemvalue="TestNG.T1_registration_form_faker.testRegistrationForm" />
-      <item itemvalue="TestNG.T1_SecureSmartbearLogin" />
-      <item itemvalue="TestNG.T1_SecureSmartbearLogin.getLinks_test" />
-      <item itemvalue="TestNG.T2_drag_drop" />
-      <item itemvalue="TestNG.T2_drag_drop.nowDrop_test" />
-      <item itemvalue="TestNG.T2_drag_drop.tryAgain_test" />
+      <item itemvalue="TestNG.EntryAd (1)" />
+      <item itemvalue="TestNG.EntryAd" />
+      <item itemvalue="TestNG.Task1" />
+      <item itemvalue="TestNG.Task1.testAlbum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T2_drag_drop" />
-        <item itemvalue="TestNG.T1_SecureSmartbearLogin.getLinks_test" />
-        <item itemvalue="TestNG.T1_SecureSmartbearLogin" />
-        <item itemvalue="TestNG.T2_drag_drop.nowDrop_test" />
-        <item itemvalue="TestNG.T2_drag_drop.tryAgain_test" />
+        <item itemvalue="TestNG.T1_registration_form_faker.testRegistrationForm" />
+        <item itemvalue="TestNG.Task1" />
+        <item itemvalue="TestNG.Task1.testAlbum" />
+        <item itemvalue="TestNG.EntryAd (1)" />
+        <item itemvalue="TestNG.EntryAd" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +394,8 @@
       <workItem from="1702744037491" duration="3000" />
       <workItem from="1703275388334" duration="12640000" />
       <workItem from="1703442202474" duration="5227000" />
+      <workItem from="1704431905665" duration="3833000" />
+      <workItem from="1704472254632" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />

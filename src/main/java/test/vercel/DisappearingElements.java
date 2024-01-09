@@ -17,6 +17,13 @@ import java.util.List;
 
 public class DisappearingElements extends Exception{
 
+//    LoopPracticeDisappearingElementsPage loopPracticeDisappearingElementsPage;
+
+    @BeforeMethod
+    public void setupMethod(){
+        Driver.getDriver().get("https://loopcamp.vercel.app/disappearing-elements.html");
+//        loopPracticeDisappearingElementsPage = new LoopPracticeDisappearingElementsPage();
+    }
 
     @Test
     public void main() throws InterruptedException {
@@ -47,3 +54,9 @@ public class DisappearingElements extends Exception{
         return "";
     }
 }
+
+//class LoopPracticeDisappearingElementsPage{
+//
+//    public LoopPracticeDisappearingElementsPage
+//
+//}
